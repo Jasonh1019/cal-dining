@@ -195,18 +195,27 @@ main { padding: 0 0 32px; }
 
 .station { padding: 0 max(16px, env(safe-area-inset-left)) 4px; }
 
+/*
+ * 档口标题要一眼看出是标题。之前 15px 反而比菜名(16px)还小，
+ * 扫下来全是一样大的字，分不出哪儿是一个档口的开头。
+ * 现在：字号压过菜名 + 上方留白拉开 + 金线收底。
+ */
 .station h3 {
   display: flex;
   align-items: baseline;
   flex-wrap: wrap;
   gap: 8px;
-  margin: 16px 0 8px;
-  padding-bottom: 6px;
+  margin: 28px 0 10px;
+  padding-bottom: 7px;
   border-bottom: 2px solid var(--gold);
-  font-size: 15px;
+  font-size: 19px;
 }
+
+/* 每一餐的第一个档口紧跟着餐段标题，不用留那么多空 */
+.station:first-of-type h3 { margin-top: 14px; }
+
 .st-en { font-weight: 700; letter-spacing: .01em; }
-.st-zh { font-size: 13px; font-weight: 400; color: var(--ink-2); }
+.st-zh { font-size: 14px; font-weight: 400; color: var(--ink-2); }
 .st-todo { font-size: 11px; color: var(--ink-3); opacity: .6; }
 
 /* ---------- 菜品 ---------- */
