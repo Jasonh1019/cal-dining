@@ -158,6 +158,32 @@ function renderStamp() {
     (stale ? ' <b class="stale">· 已超过一周，该更新了</b>' : '');
 }
 
+/**
+ * 数据过没过期的横幅。放在顶部切换器下面，一进来就撞见 ——
+ * 之前只在页脚写一行，得滑过几百道菜才看得到，等于没提示。
+ */
+function renderFreshness() {
+  const el = $('#freshness');
+  const dates = state.menu.days.map(d => d.date);
+  const today = localDateString(new Date());
+  const md = (s) => { const d = parseDate(s); return `${d.getMonth() + 1}/${d.getDate()}`; };
+
+  if (!dates.includes(today)) {
+    // 最严重的情况：显示的根本不是今天的菜
+    el.className = 'fresh stale';
+    el.innerHTML =
+      `⚠️ 菜单已过期：这是 ${md(dates[0])}–${md(dates[dates.length - 1])} 那周的，没有今天的数据` +
+      `<small>去 Mac 上双击「每周更新」，再把 menu.json 传一次</small>`;
+  } else if (dates[dates.length - 1] === today) {
+    // 还能用，但明天就没了
+    el.className = 'fresh warn';
+    el.innerHTML = '今天是这批菜单的最后一天，该更新了';
+  } else {
+    el.className = 'fresh';
+    el.innerHTML = '';
+  }
+}
+
 function renderSwitchers() {
   const dates = state.menu.days.map(day => {
     const d = parseDate(day.date);
@@ -183,6 +209,7 @@ function chip(label, active, data, extra) {
 
 function render() {
   renderSwitchers();
+  renderFreshness();
   measureHeader();
 
   const day = currentDay();

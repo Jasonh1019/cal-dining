@@ -96,6 +96,36 @@ body {
 /* 这天不开门的食堂 */
 .chip.closed { opacity: .4; }
 
+/* ---------- 数据过期横幅 ---------- */
+
+.fresh:empty { display: none; }
+
+.fresh {
+  padding: 9px max(16px, env(safe-area-inset-left)) 10px;
+  font-size: 13px;
+  line-height: 1.45;
+  font-weight: 600;
+  border-top: 1px solid var(--line);
+}
+.fresh small {
+  display: block;
+  margin-top: 2px;
+  font-size: 11.5px;
+  font-weight: 400;
+  opacity: .85;
+}
+
+/* 过期了 —— 显示的不是今天的菜，必须显眼 */
+.fresh.stale { background: #c0392b; color: #fff; border-top-color: #c0392b; }
+
+/* 还能用，但明天就没了 */
+.fresh.warn { background: rgba(253, 181, 21, .18); color: #8a5a00; }
+
+@media (prefers-color-scheme: dark) {
+  .fresh.stale { background: #a5311f; }
+  .fresh.warn { background: rgba(253, 181, 21, .14); color: #e0ae4a; }
+}
+
 /* ---------- 餐段 ---------- */
 
 main { padding: 0 0 32px; }
