@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Cal Dining 双语菜单</title>
+<meta name="theme-color" content="#003262">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Cal 菜单">
+<link rel="manifest" href="./manifest.json">
+<link rel="apple-touch-icon" href="./icons/icon-180.png">
+<link rel="icon" href="./icons/icon-180.png">
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<header class="top">
+  <div class="switcher" id="dates" role="tablist" aria-label="日期"></div>
+  <div class="switcher halls" id="locations" role="tablist" aria-label="食堂"></div>
+</header>
+
+<main id="menu" aria-live="polite">
+  <p class="loading">载入中…</p>
+</main>
+
+<footer class="foot">
+  <span id="stamp"></span>
+</footer>
+
+<script src="./app.js"></script>
+</body>
+</html>

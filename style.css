@@ -1,0 +1,274 @@
+/* Cal Dining 双语菜单 —— 手机优先，走路时单手看 */
+
+:root {
+  --blue: #003262;      /* Berkeley Blue */
+  --gold: #FDB515;      /* California Gold */
+  --bg: #ffffff;
+  --card: #ffffff;
+  --line: #e6e8eb;
+  --ink: #16191d;
+  --ink-2: #4a5157;
+  --ink-3: #868e96;
+  --chip: #f1f3f5;
+  --tag: #eef0f2;
+  --shadow: 0 1px 2px rgba(0, 0, 0, .05);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0e1114;
+    --card: #171b1f;
+    --line: #272c31;
+    --ink: #e9ecef;
+    --ink-2: #b3bac0;
+    --ink-3: #7d868e;
+    --chip: #22272c;
+    --tag: #22272c;
+    --shadow: none;
+  }
+}
+
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font: 16px/1.5 -apple-system, BlinkMacSystemFont, "PingFang SC",
+        "Helvetica Neue", "Microsoft YaHei", sans-serif;
+  padding-bottom: env(safe-area-inset-bottom);
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* ---------- 顶部切换器 ---------- */
+
+.top {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: var(--bg);
+  border-bottom: 1px solid var(--line);
+  padding-top: env(safe-area-inset-top);
+}
+
+.switcher {
+  display: flex;
+  gap: 6px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  padding: 8px 12px;
+  padding-left: max(12px, env(safe-area-inset-left));
+  padding-right: max(12px, env(safe-area-inset-right));
+}
+.switcher::-webkit-scrollbar { display: none; }
+.switcher.halls { padding-top: 0; }
+
+.chip {
+  flex: 0 0 auto;
+  border: 0;
+  border-radius: 999px;
+  background: var(--chip);
+  color: var(--ink-2);
+  font: inherit;
+  font-size: 14px;
+  line-height: 1.2;
+  padding: 8px 14px;
+  cursor: pointer;
+  white-space: nowrap;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1px;
+}
+.chip small { font-size: 11px; opacity: .65; }
+
+.chip.on {
+  background: var(--blue);
+  color: #fff;
+}
+.chip.on small { opacity: .8; }
+
+/* 今天：金色下划线，选中时也看得见 */
+.chip.today { box-shadow: inset 0 -3px 0 var(--gold); }
+
+/* 这天不开门的食堂 */
+.chip.closed { opacity: .4; }
+
+/* ---------- 餐段 ---------- */
+
+main { padding: 0 0 32px; }
+
+.meal { border-bottom: 1px solid var(--line); }
+
+.meal summary {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  padding: 14px max(16px, env(safe-area-inset-left));
+  cursor: pointer;
+  list-style: none;
+  /* 顶部切换器是 sticky 的，餐段标题要停在它下面，不能被盖住。
+     --head-h 由 app.js 实测后写入。 */
+  position: sticky;
+  top: var(--head-h, 0px);
+  background: var(--bg);
+  z-index: 5;
+}
+.meal summary::-webkit-details-marker { display: none; }
+
+.meal summary { flex-wrap: wrap; }
+
+.meal-zh { font-size: 19px; font-weight: 700; }
+.meal-en { font-size: 13px; color: var(--ink-3); }
+.count { font-size: 12px; color: var(--ink-3); }
+
+/* 营业时间靠右，等宽数字对齐好扫 */
+.hours {
+  margin-left: auto;
+  font-size: 13px;
+  color: var(--ink-2);
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum";
+}
+.hours.no-hours { color: var(--ink-3); font-size: 12px; }
+
+/* 现在这一餐开没开 —— 只在看「今天」时出现 */
+.mstatus {
+  font-size: 11px;
+  line-height: 1.7;
+  padding: 0 7px;
+  border-radius: 999px;
+  font-weight: 600;
+}
+.mstatus:empty { display: none; }
+
+.mstatus.serving { background: rgba(0, 140, 80, .14); color: #0b7a4b; }
+.mstatus.soon    { background: rgba(200, 110, 0, .14); color: #b56a00; }
+.mstatus.off     { background: var(--chip); color: var(--ink-3); font-weight: 400; }
+
+@media (prefers-color-scheme: dark) {
+  .mstatus.serving { background: rgba(0, 200, 130, .16); color: #4fd693; }
+  .mstatus.soon    { background: rgba(240, 160, 40, .16); color: #eda63f; }
+}
+
+.meal summary::after {
+  content: "▾";
+  color: var(--ink-3);
+  font-size: 12px;
+  transition: transform .15s;
+}
+.meal details[open] summary::after { transform: rotate(180deg); }
+
+/* ---------- 档口 ---------- */
+
+.station { padding: 0 max(16px, env(safe-area-inset-left)) 4px; }
+
+.station h3 {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 16px 0 8px;
+  padding-bottom: 6px;
+  border-bottom: 2px solid var(--gold);
+  font-size: 15px;
+}
+.st-en { font-weight: 700; letter-spacing: .01em; }
+.st-zh { font-size: 13px; font-weight: 400; color: var(--ink-2); }
+.st-todo { font-size: 11px; color: var(--ink-3); opacity: .6; }
+
+/* ---------- 菜品 ---------- */
+
+.dishes { list-style: none; margin: 0; padding: 0; }
+
+.dish {
+  padding: 10px 0;
+  border-bottom: 1px solid var(--line);
+}
+.dish:last-child { border-bottom: 0; }
+
+/* 英文最显眼 —— 到了食堂要拿它跟档口牌子对上号 */
+.dish .en {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.35;
+  letter-spacing: .005em;
+}
+
+.dish .zh {
+  font-size: 15px;
+  color: var(--ink-2);
+  margin-top: 1px;
+}
+
+.dish .note {
+  font-size: 12.5px;
+  line-height: 1.5;
+  color: var(--ink-3);
+  margin-top: 3px;
+}
+
+/* 未翻译：英文照常显示，只加个淡色标记提醒补词条 */
+.dish.untranslated .en { color: var(--ink); }
+.todo {
+  display: inline-block;
+  margin-left: 6px;
+  padding: 1px 6px;
+  border-radius: 4px;
+  border: 1px dashed var(--ink-3);
+  color: var(--ink-3);
+  font-size: 10px;
+  font-weight: 400;
+  vertical-align: 2px;
+  opacity: .7;
+}
+
+/* ---------- 标签 ---------- */
+
+.tags { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 5px; }
+.tags:empty { display: none; }
+
+.tag {
+  font-size: 11px;
+  line-height: 1.6;
+  padding: 0 6px;
+  border-radius: 4px;
+  background: var(--tag);
+  color: var(--ink-3);
+}
+
+/* 膳食标签是「能不能吃」，给颜色 */
+.tag.diet { background: rgba(0, 122, 90, .12); color: #00795c; font-weight: 600; }
+.tag.diet.halal { background: rgba(0, 90, 160, .12); color: #1c6fb8; }
+.tag.diet.kosher { background: rgba(120, 60, 160, .12); color: #7a4bb0; }
+
+@media (prefers-color-scheme: dark) {
+  .tag.diet { background: rgba(0, 200, 150, .14); color: #4bd6ac; }
+  .tag.diet.halal { background: rgba(80, 160, 240, .14); color: #6fb4f2; }
+  .tag.diet.kosher { background: rgba(170, 120, 230, .14); color: #b78ae6; }
+}
+
+.tag.carbon { opacity: .75; }
+.tag.carbon.high { color: #b1502a; }
+@media (prefers-color-scheme: dark) { .tag.carbon.high { color: #e08a63; } }
+
+/* ---------- 其他 ---------- */
+
+.loading, .empty {
+  padding: 48px 24px;
+  text-align: center;
+  color: var(--ink-3);
+  line-height: 1.8;
+}
+.empty small { font-size: 13px; }
+
+.foot {
+  padding: 16px max(16px, env(safe-area-inset-left)) 24px;
+  font-size: 11px;
+  color: var(--ink-3);
+  text-align: center;
+}
+.stale { color: #c0392b; font-weight: 600; }
+@media (prefers-color-scheme: dark) { .stale { color: #ef7f6f; } }
