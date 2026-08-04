@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-08-03T20:06:59-07:00",
+  "scraped_at": "2026-08-03T23:51:08-07:00",
   "source_dates": [
     "2026-08-03",
     "2026-08-04",
@@ -4396,17 +4396,6 @@
                 {
                   "name": "Iron & Ember",
                   "items": [
-                    {
-                      "name": "PoBoy Catfish Sandwich",
-                      "diet": [],
-                      "allergens": [
-                        "egg",
-                        "fish",
-                        "wheat",
-                        "gluten"
-                      ],
-                      "carbon": "medium"
-                    },
                     {
                       "name": "Eggplant Mushroom and Hummus Sandwich",
                       "diet": [
