@@ -19,6 +19,35 @@ const MEAL_ZH = {
 };
 const MEAL_ORDER = ['Breakfast', 'Brunch', 'Lunch', 'Dinner', 'All Day'];
 
+/*
+ * 餐段名有时带前缀，比如迎新周的 'GBO - Breakfast'。
+ * 这跟季节前缀不一样，不能在爬虫里剥掉 —— 迎新周和普通餐段是
+ * 同一天并存的两套餐，剥了就分不清了。英文照原样显示（跟档口牌子对得上），
+ * 中文这边把前缀翻出来。
+ */
+const MEAL_PREFIX_ZH = {
+  'GBO': '迎新周',          // Golden Bear Orientation
+};
+
+// 'GBO - Breakfast' -> { prefix: 'GBO', base: 'Breakfast' }
+// 认不出来的就整个当作 base，不瞎拆
+function splitMeal(name) {
+  const i = name.lastIndexOf(' - ');
+  if (i === -1) return { prefix: '', base: name };
+  const base = name.slice(i + 3).trim();
+  return MEAL_ZH[base]
+    ? { prefix: name.slice(0, i).trim(), base }
+    : { prefix: '', base: name };
+}
+
+function mealLabelZH(name) {
+  const { prefix, base } = splitMeal(name);
+  const zh = MEAL_ZH[base] || '';
+  if (!prefix) return zh;
+  const p = MEAL_PREFIX_ZH[prefix] || prefix;
+  return zh ? `${zh}·${p}` : p;
+}
+
 const state = { menu: null, glossary: null, date: null, location: null };
 
 const $ = (sel) => document.querySelector(sel);
@@ -141,7 +170,7 @@ function pickMeal(meals, isToday) {
   // 没有营业时间，或者看的不是今天：按当前钟点粗略猜
   const h = new Date().getHours() + new Date().getMinutes() / 60;
   const want = h < 10.5 ? 'Breakfast' : (h < 16 ? 'Lunch' : 'Dinner');
-  const i = meals.findIndex(m => m.name === want);
+  const i = meals.findIndex(m => splitMeal(m.name).base === want);
   return i === -1 ? 0 : i;
 }
 
@@ -222,10 +251,14 @@ function render() {
   }
 
   const rank = (m) => {
-    const i = MEAL_ORDER.indexOf(m.name);
+    const i = MEAL_ORDER.indexOf(splitMeal(m.name).base);
     return i === -1 ? MEAL_ORDER.length : i;  // 没见过的餐段排最后
   };
-  const meals = [...loc.meals].sort((a, b) => rank(a) - rank(b));
+  // 先按早/午/晚排，同一段里普通餐段排在带前缀的（迎新周等）前面
+  const meals = [...loc.meals].sort(
+    (a, b) => rank(a) - rank(b)
+             || (splitMeal(a.name).prefix ? 1 : 0) - (splitMeal(b.name).prefix ? 1 : 0)
+  );
   const isToday = state.date === localDateString(new Date());
   const openIdx = pickMeal(meals, isToday);
 
@@ -233,7 +266,7 @@ function render() {
     <section class="meal">
       <details ${i === openIdx ? 'open' : ''}>
         <summary>
-          <span class="meal-zh">${MEAL_ZH[meal.name] || ''}</span>
+          <span class="meal-zh">${mealLabelZH(meal.name)}</span>
           <span class="meal-en">${escapeHtml(meal.name)}</span>
           <span class="count">${countItems(meal)} 道</span>
           ${meal.hours

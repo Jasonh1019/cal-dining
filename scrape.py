@@ -373,6 +373,15 @@ def collect_names(menu: dict) -> tuple[list[str], list[str]]:
     return list(dishes), list(stations)
 
 
+def _write_json(path: Path, payload) -> None:
+    """先写临时文件再改名，中途挂了也不会留个半截的 JSON。"""
+    tmp = path.with_suffix(".tmp")
+    tmp.write_text(
+        json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+    )
+    tmp.replace(path)
+
+
 def main() -> None:
     print("抓取 Cal Dining 菜单…")
     menu = scrape()
@@ -410,7 +419,27 @@ def main() -> None:
     # 术语表对不上的挑出来
     glossary_path = DATA / "glossary.json"
     if glossary_path.exists():
-        glossary = json.loads(glossary_path.read_text(encoding="utf-8"))
+        try:
+            glossary = json.loads(glossary_path.read_text(encoding="utf-8"))
+        except json.JSONDecodeError as e:
+            # 手工编辑术语表最常见的错误就是漏逗号。别甩一堆 traceback，
+            # 直接把出错的那几行指出来。菜单数据跟术语表无关，照常写盘，
+            # 不然白抓一次。
+            _write_json(DATA / "menu.json", menu)
+            print()
+            print(f"❌ glossary.json 格式错了：第 {e.lineno} 行第 {e.colno} 列")
+            print(f"   {e.msg}")
+            print()
+            lines = glossary_path.read_text(encoding="utf-8").split("\n")
+            for n in range(max(1, e.lineno - 3), min(len(lines), e.lineno + 1) + 1):
+                mark = " →" if n == e.lineno else "  "
+                print(f"  {mark} {n:5d} | {lines[n - 1]}")
+            print()
+            print("   最常见的原因：两条词条之间少了逗号。")
+            print("   看上面带 → 的那行，它上一行的结尾应该有个逗号。")
+            print()
+            print("   （menu.json 已经正常写入，修好术语表再跑一次就行）")
+            sys.exit(1)
     else:
         glossary = {"dishes": {}, "stations": {}}
         print("  （还没有 glossary.json，这次所有菜都算待翻译）")
@@ -426,16 +455,10 @@ def main() -> None:
     }
     missing_stations = {s: "" for s in stations if not known_stations.get(s)}
 
-    # 写文件。先写到临时文件再改名，中途挂了也不会留个半截的 JSON。
-    for path, payload in (
-        (DATA / "menu.json", menu),
-        (DATA / "missing.json", {"dishes": missing_dishes, "stations": missing_stations}),
-    ):
-        tmp = path.with_suffix(".tmp")
-        tmp.write_text(
-            json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
-        )
-        tmp.replace(path)
+    # 写文件
+    _write_json(DATA / "menu.json", menu)
+    _write_json(DATA / "missing.json",
+                {"dishes": missing_dishes, "stations": missing_stations})
 
     print()
     print(f"✅ 共 {total} 道菜，{len(menu['days'])} 天，写入 data/menu.json")
