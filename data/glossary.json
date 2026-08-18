@@ -1,5 +1,629 @@
 {
   "dishes": {
+    "Vegetable and Cheese Eggs Scramble": {
+      "zh": "蔬菜芝士炒蛋",
+      "note": "鸡蛋+彩椒洋葱等蔬菜+芝士，炒；不辣；中油"
+    },
+    "Kosher Roasted Root Veggies": {
+      "zh": "烤根茎蔬菜（洁食）",
+      "note": "胡萝卜、土豆、欧防风等根茎菜，烤；不辣；少油"
+    },
+    "Halal Assorted Mini Danish": {
+      "zh": "迷你丹麦酥拼盘（清真）",
+      "note": "黄油酥皮+果酱/奶酪馅，烤；不辣；油大、甜"
+    },
+    "Sliced Whole Wheat Vegan Bread": {
+      "zh": "全麦纯素切片面包",
+      "note": "全麦面粉，烤；不辣；几乎无油"
+    },
+    "Mashed Avocado with Lemon": {
+      "zh": "柠檬牛油果泥",
+      "note": "牛油果压泥+柠檬汁，生拌；不辣；油脂含量高但口感不腻"
+    },
+    "Apple": {
+      "zh": "苹果",
+      "note": "生鲜水果；不辣；无油"
+    },
+    "Fajita-Spiced Pan-Fried Catfish": {
+      "zh": "法士达香料煎鲶鱼",
+      "note": "鲶鱼柳，抹墨西哥混合香料后煎；微辣；中油"
+    },
+    "Vegetable Fajita": {
+      "zh": "墨西哥铁板炒蔬菜",
+      "note": "甜椒+洋葱等，铁板煎炒；微辣；中油"
+    },
+    "Rigatoni Pasta": {
+      "zh": "水管形意面（原味）",
+      "note": "粗管意面，水煮；不辣；少油（需自己配酱）"
+    },
+    "Steamed Beets": {
+      "zh": "蒸甜菜根",
+      "note": "甜菜根，蒸；不辣；无油；味甜、土腥味明显"
+    },
+    "Halal Beef Curry": {
+      "zh": "清真咖喱牛肉",
+      "note": "牛肉块+咖喱酱，炖；中辣；较油"
+    },
+    "Halal Fried Green Beans": {
+      "zh": "清真炸四季豆",
+      "note": "四季豆，油炸；不辣；油大"
+    },
+    "Sauteed Corn Pasilla": {
+      "zh": "帕西拉辣椒炒玉米",
+      "note": "玉米粒+pasilla 干辣椒，炒；微辣；中油"
+    },
+    "Vegan Sour Cream": {
+      "zh": "纯素酸奶油（酱料）",
+      "note": "植物基酸味浓酱，直接取用；不辣；油脂高"
+    },
+    "Texas-style Breakfast Taco": {
+      "zh": "德州式早餐塔可",
+      "note": "炒蛋+芝士（多配香肠/培根），卷面饼；不辣；中油"
+    },
+    "Vegan Texas-style Breakfast Taco": {
+      "zh": "纯素德州早餐塔可",
+      "note": "豆腐碎/植物蛋+蔬菜，卷面饼；不辣；中油"
+    },
+    "Vegan Chilaquiles": {
+      "zh": "纯素墨西哥辣酱煮玉米片",
+      "note": "炸玉米片浸红/绿莎莎酱煮软；微辣；中油"
+    },
+    "Kale Eggplant Stir Fry": {
+      "zh": "羽衣甘蓝炒茄子",
+      "note": "茄子+羽衣甘蓝，炒；不辣；偏油（茄子吸油）"
+    },
+    "Mild Salsa": {
+      "zh": "微辣莎莎酱",
+      "note": "番茄+洋葱+香菜，生拌；微辣；无油"
+    },
+    "Elote Steamed Corn": {
+      "zh": "墨西哥街头风味玉米",
+      "note": "蒸玉米+蛋黄酱+芝士粉+辣椒粉；微辣；较油"
+    },
+    "Baked Ancho Orange Salmon": {
+      "zh": "安丘辣椒香橙烤三文鱼",
+      "note": "三文鱼，抹 ancho 辣椒+橙汁后烤；微辣；中油（多为鱼本身油脂）"
+    },
+    "Steamed Green Beans": {
+      "zh": "蒸四季豆",
+      "note": "四季豆，蒸；不辣；无油"
+    },
+    "Moroccan Spiced Chicken": {
+      "zh": "摩洛哥香料鸡",
+      "note": "鸡肉+孜然肉桂等北非香料，烤/炖；香而不辣；中油"
+    },
+    "Chickpea & Vegetable Tagine": {
+      "zh": "鹰嘴豆蔬菜塔吉锅",
+      "note": "鹰嘴豆+杂菜+香料，慢炖；不辣；少油"
+    },
+    "Steamed Carrots": {
+      "zh": "蒸胡萝卜",
+      "note": "胡萝卜，蒸；不辣；无油"
+    },
+    "Al Pastor Tofu": {
+      "zh": "牧羊人风味豆腐",
+      "note": "豆腐用辣椒+菠萝腌后煎烤；微辣带甜；中油"
+    },
+    "Vegan Cheesesteak Sandwich": {
+      "zh": "纯素芝士牛肉三明治",
+      "note": "植物肉片+洋葱甜椒+素芝士，夹长面包；不辣；较油"
+    },
+    "Kale Polenta with Sundried Tomato Pesto": {
+      "zh": "羽衣甘蓝玉米糊配油浸番茄青酱",
+      "note": "玉米粉糊+羽衣甘蓝，煮；不辣；油大（青酱橄榄油多）"
+    },
+    "Halal Macaroni Cheeseburger": {
+      "zh": "清真芝士通心粉汉堡",
+      "note": "牛肉饼+芝士通心粉，夹汉堡包；不辣；油大"
+    },
+    "Halal Oven Fried Chicken Breast": {
+      "zh": "清真烤箱炸鸡胸",
+      "note": "鸡胸裹面包糠，烤箱烤出炸感；不辣；中油（比真油炸清爽）"
+    },
+    "Vegan \"Chicken\" Nuggets": {
+      "zh": "纯素鸡块",
+      "note": "植物蛋白裹粉，炸/烤；不辣；油大"
+    },
+    "Creamy Chipotle Sauce": {
+      "zh": "奶香烟熏辣椒酱",
+      "note": "蛋黄酱基底+chipotle 烟熏辣椒；中辣；油大"
+    },
+    "Asparagus": {
+      "zh": "芦笋",
+      "note": "芦笋，蒸/焯；不辣；少油"
+    },
+    "Dinner Rolls": {
+      "zh": "小餐包",
+      "note": "白面粉，烤；不辣；少油"
+    },
+    "Halal BBQ Beef Brisket": {
+      "zh": "清真烤肉酱牛胸肉",
+      "note": "牛胸肉慢烤+BBQ 酱；不辣、偏甜咸；较油"
+    },
+    "Vegan BBQ \"Beef\" Strips": {
+      "zh": "纯素 BBQ 牛肉条",
+      "note": "植物蛋白条+BBQ 酱，煎烤；不辣、偏甜；中油"
+    },
+    "Grilled Asparagus": {
+      "zh": "炭烤芦笋",
+      "note": "芦笋，刷油炙烤；不辣；少到中油"
+    },
+    "Southern Style Green Beans": {
+      "zh": "美南风味炖四季豆",
+      "note": "四季豆+洋葱久炖（常带烟熏味）；不辣；中油、偏咸"
+    },
+    "Vegetable Spring Roll": {
+      "zh": "蔬菜春卷",
+      "note": "蔬菜粉丝馅，油炸；不辣；油大"
+    },
+    "Black Eyed Peas Stew": {
+      "zh": "黑眼豆炖菜",
+      "note": "黑眼豆+蔬菜，炖；不辣；少油"
+    },
+    "Dirty Rice": {
+      "zh": "路易斯安那香料肉末饭",
+      "note": "米饭+肉末/鸡杂+甜椒芹菜，炒；微辣；中油"
+    },
+    "Grilled Boneless Pork Chop": {
+      "zh": "炭烤无骨猪排",
+      "note": "猪里脊排，炙烤；不辣；中油"
+    },
+    "Firm Polenta with Roasted Tomato and Mushroom": {
+      "zh": "玉米糕配烤番茄蘑菇",
+      "note": "玉米粉凝固切块+烤番茄蘑菇；不辣；中油"
+    },
+    "White Beans with Oregano and Garlic": {
+      "zh": "牛至蒜香白豆",
+      "note": "白芸豆+蒜+牛至，炖；不辣；少到中油"
+    },
+    "Halal Herb Roasted Chicken": {
+      "zh": "清真香草烤鸡",
+      "note": "带皮鸡肉+迷迭香百里香，烤；不辣；中油（鸡皮油）"
+    },
+    "Arborio Mushroom Risotto with Rice": {
+      "zh": "蘑菇意式烩饭",
+      "note": "Arborio 米+蘑菇+黄油奶酪，慢煮；不辣；较油、口感浓稠"
+    },
+    "Roasted Garlic Thyme Mushroom": {
+      "zh": "蒜香百里香烤蘑菇",
+      "note": "口蘑，拌油香草后烤；不辣；中油"
+    },
+    "Baked Salmon with Jade Pesto": {
+      "zh": "翡翠青酱烤三文鱼",
+      "note": "三文鱼+香草青酱，烤；不辣；较油"
+    },
+    "Braised Bok Choy": {
+      "zh": "焖青江菜",
+      "note": "小白菜，焖；不辣；少油"
+    },
+    "Halal Banh Mi Chicken Sandwich": {
+      "zh": "清真越式法包鸡肉三明治",
+      "note": "鸡肉+腌萝卜胡萝卜+香菜，夹法棍；微辣（含辣椒）；中油"
+    },
+    "Tofu Banh Mi Marinade": {
+      "zh": "越式法包腌豆腐",
+      "note": "豆腐用鱼露风味素腌料腌后煎；微辣；中油"
+    },
+    "Elbow Macaroni Pasta": {
+      "zh": "弯管通心粉（原味）",
+      "note": "通心粉，水煮；不辣；少油"
+    },
+    "Rendang Beef Stew": {
+      "zh": "印尼仁当牛肉",
+      "note": "牛肉+椰浆+香料，久炖收汁；中辣；油大"
+    },
+    "Pad Kee Mao": {
+      "zh": "泰式醉汉炒宽粉",
+      "note": "宽米粉+罗勒+辣椒，大火炒；辣；中到大油"
+    },
+    "Corned Beef Reuben Sandwich": {
+      "zh": "腌牛肉鲁本三明治",
+      "note": "咸牛肉+酸菜+瑞士芝士+千岛酱，黑麦面包煎；不辣；油大、偏咸"
+    },
+    "Hardboiled Eggs": {
+      "zh": "水煮蛋",
+      "note": "整只鸡蛋，煮熟；不辣；无油"
+    },
+    "Halal Texas Style Breakfast Taco": {
+      "zh": "清真德州早餐塔可",
+      "note": "炒蛋+清真肉+芝士，卷面饼；不辣；中油"
+    },
+    "Cream Cheese": {
+      "zh": "奶油芝士",
+      "note": "涂抹用，直接取；不辣；油脂高"
+    },
+    "Jelly": {
+      "zh": "果酱",
+      "note": "水果+糖熬制；不辣；无油、很甜"
+    },
+    "Nut Free Granola": {
+      "zh": "无坚果格兰诺拉麦片",
+      "note": "燕麦+糖浆烤；不辣；中油、偏甜"
+    },
+    "Orange Juice": {
+      "zh": "橙汁",
+      "note": "饮品；不辣；无油"
+    },
+    "2% Milk": {
+      "zh": "2% 低脂牛奶",
+      "note": "饮品；不辣；低脂"
+    },
+    "Oat Milk": {
+      "zh": "燕麦奶",
+      "note": "植物奶，饮品；不辣；低脂、略甜"
+    },
+    "Halal Chicken Breast with Caper Sauce": {
+      "zh": "清真酸豆汁鸡胸",
+      "note": "鸡胸煎后淋刺山柑柠檬黄油汁；不辣；中油、偏酸咸"
+    },
+    "Halal Creamy Chicken Pasta": {
+      "zh": "清真奶油鸡肉意面",
+      "note": "鸡肉+意面+奶油白酱，拌；不辣；油大"
+    },
+    "Tuscan Bean Penne": {
+      "zh": "托斯卡纳白豆笔管面",
+      "note": "笔管面+白芸豆+番茄，煮；不辣；中油"
+    },
+    "Halal Creamy Polenta": {
+      "zh": "清真奶油玉米糊",
+      "note": "玉米粉+牛奶黄油，煮；不辣；较油、绵软"
+    },
+    "Roasted Asparagus": {
+      "zh": "烤芦笋",
+      "note": "芦笋，拌油烤；不辣；少到中油"
+    },
+    "Halal Greek Cucumber Salad": {
+      "zh": "清真希腊黄瓜沙拉",
+      "note": "黄瓜+番茄+羊奶酪+橄榄，生拌；不辣；中油、偏酸"
+    },
+    "Black Bean and Corn Salad": {
+      "zh": "黑豆玉米沙拉",
+      "note": "黑豆+玉米+甜椒，凉拌；微辣或不辣；少油"
+    },
+    "Green Salad": {
+      "zh": "生菜沙拉",
+      "note": "混合绿叶菜，生食；不辣；无油（酱另配）"
+    },
+    "Red Apple": {
+      "zh": "红苹果",
+      "note": "生鲜水果；不辣；无油"
+    },
+    "Valenica Orange": {
+      "zh": "瓦伦西亚橙（原文拼写有误，应为 Valencia）",
+      "note": "生鲜水果；不辣；无油"
+    },
+    "Vanilla Ice Cream Sandwich": {
+      "zh": "香草冰淇淋三明治",
+      "note": "巧克力薄饼夹香草冰淇淋；不辣；油脂糖分高"
+    },
+    "Halal Grilled Chicken Breast": {
+      "zh": "清真炭烤鸡胸",
+      "note": "鸡胸，炙烤；不辣；少油"
+    },
+    "Halal Beef and Bean Enchiladas (Halal)": {
+      "zh": "清真牛肉豆焗卷饼",
+      "note": "玉米饼卷牛肉+豆，淋辣酱芝士焗；微辣；油大"
+    },
+    "Crispy Chili-Maple Tofu": {
+      "zh": "香辣枫糖脆皮豆腐",
+      "note": "豆腐裹粉炸后裹辣椒枫糖酱；微辣带甜；油大"
+    },
+    "Southwest Cobb Salad": {
+      "zh": "西南风味考伯沙拉",
+      "note": "生菜+鸡肉+豆+玉米+芝士+蛋，凉拌；微辣；酱多则较油"
+    },
+    "Garbanzo Bean and Cherry Tomato Salad": {
+      "zh": "鹰嘴豆圣女果沙拉",
+      "note": "鹰嘴豆+小番茄，凉拌；不辣；少油"
+    },
+    "Egg and Cheese English Muffin Sandwich": {
+      "zh": "鸡蛋芝士英式麦芬堡",
+      "note": "煎蛋+芝士，夹英式麦芬；不辣；中油"
+    },
+    "Mushroom Stir Fry": {
+      "zh": "炒蘑菇",
+      "note": "混合菇类，大火炒；不辣；中油"
+    },
+    "Fudge Ice Cream Bar": {
+      "zh": "巧克力雪糕",
+      "note": "冰淇淋+巧克力涂层；不辣；油脂糖分高"
+    },
+    "Fried Breaded Cod with Tartar Sauce": {
+      "zh": "炸鳕鱼柳配塔塔酱",
+      "note": "鳕鱼裹面包糠油炸+蛋黄酱基酱；不辣；油大"
+    },
+    "Chicken Enchiladas with Red Sauce": {
+      "zh": "红酱焗鸡肉卷饼",
+      "note": "玉米饼卷鸡肉，淋红辣椒酱+芝士焗；微辣；较油"
+    },
+    "Baked Vegan Protein Red Sauce Enchilada": {
+      "zh": "纯素植物蛋白红酱焗卷饼",
+      "note": "玉米饼卷植物肉，淋红辣椒酱烤；微辣；中油"
+    },
+    "Halal Rosemary Roasted Chicken Thigh": {
+      "zh": "清真迷迭香烤鸡腿",
+      "note": "带皮鸡腿+迷迭香，烤；不辣；中油"
+    },
+    "Vegan Wellness Stew": {
+      "zh": "纯素养生炖菜",
+      "note": "豆类+根茎菜+高汤，慢炖；不辣；少油、清淡"
+    },
+    "Roasted Edamame and Squash": {
+      "zh": "烤毛豆南瓜",
+      "note": "毛豆+南瓜，拌油烤；不辣；少到中油"
+    },
+    "Citrus Glaze Pork": {
+      "zh": "柑橘蜜汁猪肉",
+      "note": "猪肉+柑橘糖汁，烤后收汁；不辣、偏甜酸；中油"
+    },
+    "Baked Sweet Potato": {
+      "zh": "烤红薯",
+      "note": "红薯，整只烤；不辣；无油"
+    },
+    "Tomatillo Avocado Verde Salad": {
+      "zh": "绿番茄牛油果沙拉",
+      "note": "墨西哥绿番茄+牛油果，凉拌；微辣；油脂来自牛油果"
+    },
+    "Halal Egg and Cheese Biscuit Sandwich": {
+      "zh": "清真鸡蛋芝士比司吉三明治",
+      "note": "煎蛋+芝士，夹黄油酥饼；不辣；油大"
+    },
+    "Sunflower Butter Jelly Sandwich": {
+      "zh": "葵花籽酱果酱三明治",
+      "note": "葵花籽酱+果酱，夹吐司；不辣；油脂糖分高（花生酱替代品）"
+    },
+    "Halal Chicken Thigh Adobo": {
+      "zh": "清真菲式阿斗波鸡腿",
+      "note": "鸡腿用酱油+醋+蒜+月桂叶炖；不辣；中油、咸酸味重"
+    },
+    "Vegan Pancit": {
+      "zh": "纯素菲式炒米粉",
+      "note": "细米粉+蔬菜，炒；不辣；中油"
+    },
+    "Macaroni Salad": {
+      "zh": "通心粉沙拉",
+      "note": "通心粉+蛋黄酱+芹菜，凉拌；不辣；油大"
+    },
+    "Halal Chicken Tikka Masala": {
+      "zh": "清真马萨拉咖喱鸡",
+      "note": "鸡块+番茄奶油咖喱，炖；微到中辣；油大"
+    },
+    "Halal Vegan Baked Tandoori Tofu": {
+      "zh": "清真纯素坦都里烤豆腐",
+      "note": "豆腐用印度红香料腌后烤；微辣；中油"
+    },
+    "Pita Chips": {
+      "zh": "皮塔饼脆片",
+      "note": "皮塔饼切块烤/炸；不辣；中到大油"
+    },
+    "Black Lentils": {
+      "zh": "黑扁豆",
+      "note": "黑扁豆，煮/炖；不辣；少油"
+    },
+    "Halal Roasted Tri Tip": {
+      "zh": "清真烤牛三角肉",
+      "note": "牛臀尖肉整块烤后切片；不辣；中油"
+    },
+    "Shrimp Lemon Cream Linguini": {
+      "zh": "柠檬奶油虾扁意面",
+      "note": "虾仁+扁意面+柠檬奶油汁；不辣；油大"
+    },
+    "Chicken Breast with Caper Sauce": {
+      "zh": "酸豆汁鸡胸",
+      "note": "鸡胸煎后淋刺山柑柠檬黄油汁；不辣；中油、偏酸咸"
+    },
+    "Garlic Toast": {
+      "zh": "蒜香烤面包",
+      "note": "面包片抹蒜蓉黄油，烤；不辣；中到大油"
+    },
+    "Greek Salad": {
+      "zh": "希腊沙拉",
+      "note": "黄瓜番茄+羊奶酪+橄榄+红洋葱，凉拌；不辣；中油、偏酸咸"
+    },
+    "Masala Chicken Thigh": {
+      "zh": "马萨拉香料鸡腿",
+      "note": "鸡腿+印度混合香料，烤/炖；微到中辣；中油"
+    },
+    "Palak Paneer": {
+      "zh": "印度菠菜芝士",
+      "note": "菠菜泥+印度奶酪块，炖；微辣；较油"
+    },
+    "Red Velvet Cake": {
+      "zh": "红丝绒蛋糕",
+      "note": "可可蛋糕胚+奶油芝士霜；不辣；油糖高"
+    },
+    "Blueberry Pancakes": {
+      "zh": "蓝莓松饼",
+      "note": "面糊+蓝莓，铁板煎；不辣；中油、偏甜"
+    },
+    "Breakfast Burrito": {
+      "zh": "早餐卷饼",
+      "note": "炒蛋+土豆+芝士（常配肉），卷面粉饼；不辣；油大"
+    },
+    "Halal Roasted Beef Tri Tip": {
+      "zh": "清真烤牛三角肉",
+      "note": "牛臀尖肉整块烤后切片；不辣；中油"
+    },
+    "Roasted Asparagus Mushroom Pepper and Zucchini": {
+      "zh": "烤杂菜（芦笋·蘑菇·甜椒·西葫芦）",
+      "note": "四种蔬菜拌油同烤；不辣；中油"
+    },
+    "Chimichurri Sauce": {
+      "zh": "阿根廷香草蒜酱",
+      "note": "欧芹+蒜+醋+橄榄油，生调；微辣（含辣椒碎）；油大"
+    },
+    "Baked Dijon Herb Crusted Salmon": {
+      "zh": "第戎芥末香草脆皮烤三文鱼",
+      "note": "三文鱼表面裹芥末+香草面包糠，烤；不辣；较油"
+    },
+    "Couscous": {
+      "zh": "北非小米（库斯库斯）",
+      "note": "小麦粗粒，蒸/泡；不辣；少油"
+    },
+    "Halal Nashville Hot Chicken Biscuit Sandwic": {
+      "zh": "清真纳什维尔辣鸡比司吉堡（原文 Sandwich 拼写不全）",
+      "note": "炸鸡刷辣油，夹黄油酥饼；很辣；油大"
+    },
+    "Halal Huli Huli Grilled Chicken": {
+      "zh": "清真夏威夷烤鸡（Huli Huli）",
+      "note": "鸡肉刷酱油菠萝汁边烤边翻；不辣、偏甜咸；中油"
+    },
+    "Singapore Vegetable Chow Mein Halal": {
+      "zh": "清真星洲蔬菜炒面",
+      "note": "细面/米粉+蔬菜+咖喱粉，炒；微辣；中油"
+    },
+    "Spicy Garlic Eggplant Stir-Fry Halal": {
+      "zh": "清真蒜香辣炒茄子",
+      "note": "茄子+蒜+辣椒，大火炒；辣；油大（茄子吸油）"
+    },
+    "Edamame and Corn Salad": {
+      "zh": "毛豆玉米沙拉",
+      "note": "毛豆+玉米粒，凉拌；不辣；少油"
+    },
+    "Thai Noodle Salad": {
+      "zh": "泰式凉拌粉",
+      "note": "米粉+蔬菜丝+酸辣汁，凉拌；微到中辣；少油"
+    },
+    "Grilled Eggplant": {
+      "zh": "炭烤茄子",
+      "note": "茄片刷油炙烤；不辣；中油"
+    },
+    "Chicken Thigh Adobo Stew": {
+      "zh": "菲式阿斗波炖鸡腿",
+      "note": "鸡腿用酱油+醋+蒜炖；不辣；中油、咸酸味重"
+    },
+    "Halal BBQ Roasted Chicken": {
+      "zh": "清真烤肉酱烤鸡",
+      "note": "带皮鸡肉刷 BBQ 酱烤；不辣、偏甜；中油"
+    },
+    "Halal Biscuit with Gravy": {
+      "zh": "清真比司吉配奶油肉汁",
+      "note": "黄油酥饼淋白色香肠肉汁；不辣（略带黑胡椒味）；油很大"
+    },
+    "Shrimp Fajitas": {
+      "zh": "虾仁法士达",
+      "note": "虾仁+甜椒洋葱，铁板炒；微辣；中油"
+    },
+    "Tofu Fajita": {
+      "zh": "豆腐法士达",
+      "note": "豆腐+甜椒洋葱，铁板炒；微辣；中油"
+    },
+    "Pasta Salad": {
+      "zh": "意面沙拉",
+      "note": "短意面+蔬菜+油醋/蛋黄酱，凉拌；不辣；中到大油"
+    },
+    "Halal Parmesan Baked Chicken Breast": {
+      "zh": "清真帕玛森芝士烤鸡胸",
+      "note": "鸡胸裹芝士面包糠，烤；不辣；中油"
+    },
+    "Hoppin' John Rice": {
+      "zh": "美南黑眼豆饭",
+      "note": "米饭+黑眼豆+洋葱芹菜（常带烟熏肉味），焖；不辣；中油"
+    },
+    "Fried Okra": {
+      "zh": "炸秋葵",
+      "note": "秋葵裹玉米粉油炸；不辣；油大"
+    },
+    "Green Bean and Arugala Salad": {
+      "zh": "四季豆芝麻菜沙拉（原文 Arugula 拼写有误）",
+      "note": "焯四季豆+芝麻菜，凉拌；不辣；少到中油"
+    },
+    "Broccoli and Tomato Salad": {
+      "zh": "西兰花番茄沙拉",
+      "note": "焯西兰花+番茄，凉拌；不辣；少油"
+    },
+    "Classic Tapenade Sauce": {
+      "zh": "经典橄榄酱",
+      "note": "黑橄榄+刺山柑+橄榄油打碎；不辣；油大、很咸"
+    },
+    "Chicken Pot Pie": {
+      "zh": "鸡肉奶油酥皮派",
+      "note": "鸡肉+蔬菜奶油馅+酥皮，烤；不辣；油大"
+    },
+    "Whole Wheat Dinner Roll": {
+      "zh": "全麦小餐包",
+      "note": "全麦面粉，烤；不辣；少油"
+    },
+    "Creamy Herb Mushroom Penne Pasta": {
+      "zh": "奶油香草蘑菇笔管面",
+      "note": "笔管面+蘑菇+奶油白酱；不辣；油大"
+    },
+    "Steamed Carrots with Parsley": {
+      "zh": "欧芹蒸胡萝卜",
+      "note": "胡萝卜蒸后拌欧芹；不辣；少油"
+    },
+    "Godfather Pizza": {
+      "zh": "「教父」多肉披萨",
+      "note": "饼底+芝士+意式香肠/萨拉米等多种肉，烤；不辣或微辣；油大"
+    },
+    "Honey Glazed Carrots": {
+      "zh": "蜜汁胡萝卜",
+      "note": "胡萝卜+蜂蜜黄油，烤/炒收汁；不辣、偏甜；中油"
+    },
+    "Atchara Papaya Coleslaw": {
+      "zh": "菲式酸腌木瓜丝",
+      "note": "青木瓜丝糖醋腌；不辣；无油、酸甜"
+    },
+    "Balsamic Vinegar Glaze": {
+      "zh": "香醋浓缩汁",
+      "note": "意大利香醋熬稠；不辣；无油、酸甜"
+    },
+    "Halal Nashville Hot Chicken Tenders": {
+      "zh": "清真纳什维尔辣鸡柳",
+      "note": "鸡柳裹粉炸后刷辣椒油；很辣；油大"
+    },
+    "Korean Fried Tofu Halal": {
+      "zh": "清真韩式炸豆腐",
+      "note": "豆腐裹粉炸后裹甜辣酱；中辣带甜；油大"
+    },
+    "Halal Beef Bulgogi": {
+      "zh": "清真韩式烤牛肉",
+      "note": "薄牛肉片用酱油梨汁腌后煎；不辣、偏甜咸；中油"
+    },
+    "Halal Cacciatore Chicken Breast": {
+      "zh": "清真猎人风味炖鸡胸",
+      "note": "鸡胸+番茄+甜椒+蘑菇，炖；不辣；中油"
+    },
+    "Mushroom Asparagus Risotto": {
+      "zh": "蘑菇芦笋意式烩饭",
+      "note": "米+蘑菇芦笋+黄油奶酪，慢煮；不辣；较油"
+    },
+    "Garlic Roasted Broccolini": {
+      "zh": "蒜香烤西兰苔",
+      "note": "西兰苔+蒜，拌油烤；不辣；中油"
+    },
+    "Housemade Marinara Sauce": {
+      "zh": "自制番茄基础酱",
+      "note": "番茄+蒜+香草，熬煮；不辣；少油"
+    },
+    "Halal Seared Chicken Breast Cacciatore": {
+      "zh": "清真香煎鸡胸配猎人番茄酱",
+      "note": "鸡胸先煎后配番茄甜椒蘑菇酱；不辣；中油"
+    },
+    "Arborio Mushroom and Asparagus Risotto with Rice": {
+      "zh": "蘑菇芦笋意式烩饭",
+      "note": "Arborio 米+蘑菇芦笋+黄油奶酪，慢煮；不辣；较油"
+    },
+    "Ham and Cheddar Eggs Scramble": {
+      "zh": "火腿切达芝士炒蛋",
+      "note": "鸡蛋+火腿丁+切达芝士，炒；不辣；中到大油"
+    },
+    "Chocolate Chip Pancakes": {
+      "zh": "巧克力豆松饼",
+      "note": "面糊+巧克力豆，铁板煎；不辣；中油、偏甜"
+    },
+    "Seared Tofu Soyrizo": {
+      "zh": "香煎豆腐配素西班牙香肠",
+      "note": "豆腐+soyrizo 素辣肠碎，煎炒；微辣；中到大油"
+    },
+    "Halal Beef Fajitas": {
+      "zh": "清真牛肉法士达",
+      "note": "牛肉条+甜椒洋葱，铁板炒；微辣；中油"
+    },
+    "Grilled Jalapeno": {
+      "zh": "炙烤墨西哥辣椒",
+      "note": "整根 jalapeño 炙烤；辣；少油"
+    }
     "Scrambled Eggs": {
       "zh": "炒蛋",
       "note": ""
@@ -2703,5 +3327,14 @@
     "BREAKFAST": "早餐台",
     "PLANT FORWARD": "植物为主台（以素为主，偶有蛋奶）",
     "CEREAL HOT GRAINS": "麦片热粥台"
+    "Hot Cereal/Grains": "热麦片/谷物台",
+    "Pastries": "烘焙点心台",
+    "Bagels/Breads": "贝果/面包台",
+    "Cold Food Bar": "冷食台",
+    "Beverages": "饮品台",
+    "Deli Bar / Fruit": "熟食吧/水果",
+    "Chefs Table": "主厨餐台",
+    "Fruit": "水果台",
+    "Hot Cereals/Grains": "热麦片/谷物台"
   }
 }
