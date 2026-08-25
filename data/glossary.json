@@ -3283,6 +3283,570 @@
     "Cilantro Lime Rice": {
       "zh": "香菜青柠饭",
       "note": "清爽不辣"
+    },
+    "Gluten Free Vegan Egg and Cheese Sandwich": {
+      "zh": "无麸质纯素蛋芝士三明治",
+      "note": ""
+    },
+    "Green Bean Arugula Salad": {
+      "zh": "四季豆芝麻菜沙拉",
+      "note": "芝麻菜带辛辣，冷食清爽"
+    },
+    "Broccoli Tomato Salad": {
+      "zh": "西兰花番茄沙拉",
+      "note": "冷食"
+    },
+    "Fajita Style Shrimp": {
+      "zh": "法士达风味虾",
+      "note": "配洋葱彩椒铁板炒，不辣"
+    },
+    "Waffles": {
+      "zh": "华夫饼",
+      "note": ""
+    },
+    "Halal Chicken Banh Mi Sandwich": {
+      "zh": "清真越式鸡肉三明治",
+      "note": "Banh Mi 是法棍夹烤肉加腌萝卜胡萝卜和香菜，酸甜爽脆，不辣"
+    },
+    "Tofu Banh Mi Sandwich": {
+      "zh": "越式豆腐三明治",
+      "note": "法棍夹豆腐配酸萝卜香菜，清爽不辣"
+    },
+    "Kosher Jerk Baked Chicken": {
+      "zh": "洁食牙买加香辣烤鸡",
+      "note": "Jerk 是牙买加烤肉腌料，多香果加苏格兰帽椒，明显偏辣"
+    },
+    "Halal Honey Garlic Tofu": {
+      "zh": "清真蜜汁蒜香豆腐",
+      "note": "偏甜，不辣"
+    },
+    "Red Beans & Rice": {
+      "zh": "红豆饭",
+      "note": "路易斯安那菜，红芸豆炖软配米饭，咸口不辣"
+    },
+    "Vanilla Soft Serve": {
+      "zh": "香草软冰淇淋",
+      "note": ""
+    },
+    "Chocolate Soft Serve": {
+      "zh": "巧克力软冰淇淋",
+      "note": ""
+    },
+    "Halal Jerk Baked Chicken Thigh": {
+      "zh": "清真牙买加香辣烤鸡腿",
+      "note": "牙买加烤料，多香果和辣椒味重，偏辣"
+    },
+    "Baked Jerk Tofu": {
+      "zh": "牙买加香辣烤豆腐",
+      "note": "偏辣"
+    },
+    "Jamaican Rice and Peas": {
+      "zh": "牙买加椰香豆饭",
+      "note": "名字里的 peas 其实是红芸豆，用椰浆煮，微甜不辣"
+    },
+    "Kosher Beef Stew": {
+      "zh": "洁食炖牛肉",
+      "note": "清汤炖蔬菜牛肉，清淡不辣"
+    },
+    "Lemon Saffron Orzo Pasta": {
+      "zh": "柠檬藏红花米粒面",
+      "note": "Orzo 是米粒形状的意面，不是米"
+    },
+    "Syrup": {
+      "zh": "糖浆",
+      "note": "浇华夫饼松饼用"
+    },
+    "Farro Pilaf": {
+      "zh": "法罗麦抓饭",
+      "note": "古麦品种，颗粒饱满有嚼劲"
+    },
+    "Pork Carnitas": {
+      "zh": "墨西哥手撕猪肉",
+      "note": "炖软后再煎脆，外焦里嫩，油，不辣"
+    },
+    "Vegetable Medley": {
+      "zh": "什锦蔬菜",
+      "note": ""
+    },
+    "Eggs Benedict Sandwiches": {
+      "zh": "班尼迪克蛋三明治",
+      "note": "水波蛋加荷兰酱（黄油蛋黄酱），浓郁偏油"
+    },
+    "Mung Bean Benedict": {
+      "zh": "纯素班尼迪克",
+      "note": "绿豆做的素蛋，配荷兰酱"
+    },
+    "Cream of Wheat": {
+      "zh": "麦糊粥",
+      "note": "细麦粉煮的糊状热粥，口感像藕粉，本身没味道"
+    },
+    "Sweet Potato Black Bean Taco": {
+      "zh": "红薯黑豆塔可",
+      "note": "素，微甜不辣"
+    },
+    "Esquites": {
+      "zh": "墨西哥玉米杯",
+      "note": "街头小吃，玉米粒拌蛋黄酱、芝士和辣椒粉，微辣偏油"
+    },
+    "Onion and Cilantro": {
+      "zh": "洋葱香菜末",
+      "note": "塔可配料"
+    },
+    "Teriyaki Chicken": {
+      "zh": "照烧鸡",
+      "note": "甜咸酱油味，不辣"
+    },
+    "Teriyaki Tofu": {
+      "zh": "照烧豆腐",
+      "note": "甜咸，不辣"
+    },
+    "Miso Braised Mushroom": {
+      "zh": "味增炖蘑菇",
+      "note": "咸鲜，不辣"
+    },
+    "Brown Rice and Quinoa": {
+      "zh": "糙米藜麦饭",
+      "note": "有嚼劲"
+    },
+    "Plant Based Cheese Sauce": {
+      "zh": "植物基芝士酱",
+      "note": ""
+    },
+    "Parmesan Cheese": {
+      "zh": "帕玛森芝士",
+      "note": "硬质咸香芝士，撒意面上"
+    },
+    "Lemon Ricotta Chicken": {
+      "zh": "柠檬乳清干酪鸡",
+      "note": "清爽带奶香，不辣"
+    },
+    "Tofu Parmesan Bake (Vegan)": {
+      "zh": "焗帕玛森豆腐（纯素）",
+      "note": "番茄酱和素芝士层叠焗烤"
+    },
+    "Roasted Eggplant": {
+      "zh": "烤茄子",
+      "note": ""
+    },
+    "Kosher Beef Chili Colorado": {
+      "zh": "洁食墨西哥红烧牛肉",
+      "note": "Colorado 是西班牙语的「红色」，指干辣椒酱底，不是科罗拉多州；微辣"
+    },
+    "Ginger Burmese Salad": {
+      "zh": "缅甸姜丝沙拉",
+      "note": "腌姜丝拌炸豆和坚果，酸咸带姜辣，口感很脆"
+    },
+    "Halal Apple Cider Glazed Chicken": {
+      "zh": "清真苹果酒蜜汁鸡",
+      "note": "偏甜带果酸，不辣"
+    },
+    "Roasted Sweet Potato": {
+      "zh": "烤红薯",
+      "note": "自带甜味"
+    },
+    "Kosher Chicken Fajita": {
+      "zh": "洁食鸡肉法士达",
+      "note": "配洋葱彩椒，卷饼吃，不辣"
+    },
+    "Berry Granola Plantains": {
+      "zh": "莓果麦片大蕉",
+      "note": "煎大蕉配格兰诺拉和莓果，偏甜"
+    },
+    "Halal Baked Pineapple Teriyaki Salmon": {
+      "zh": "清真菠萝照烧烤三文鱼",
+      "note": "甜咸，不辣"
+    },
+    "Pork Potstickers": {
+      "zh": "猪肉锅贴",
+      "note": ""
+    },
+    "Ponzu Sauce": {
+      "zh": "柚子醋酱油",
+      "note": "日式柑橘味酱油，酸咸清爽"
+    },
+    "Korean BBQ Sauce": {
+      "zh": "韩式烤肉酱",
+      "note": "甜咸带蒜，微辣"
+    },
+    "Mediterranean Eggplant Breakfast Wrap": {
+      "zh": "地中海茄子早餐卷",
+      "note": "不辣"
+    },
+    "Southwest Breakfast Wrap (Vegan)": {
+      "zh": "西南风味早餐卷（纯素）",
+      "note": "豆类玉米辣椒风味，微辣"
+    },
+    "Coconut Quinoa Porridge": {
+      "zh": "椰香藜麦粥",
+      "note": "微甜"
+    },
+    "Thai Coconut Curry Beef Noodle Soup": {
+      "zh": "泰式椰浆咖喱牛肉汤面",
+      "note": "椰浆底，中等辣度，油润"
+    },
+    "Thai Coconut Curry Noodle": {
+      "zh": "泰式椰浆咖喱面",
+      "note": "椰浆底，中等辣度"
+    },
+    "Pollock Sandwich": {
+      "zh": "炸鳕鱼堡",
+      "note": "阿拉斯加狭鳕，白肉鱼裹粉炸，油"
+    },
+    "Vegan Bombay Sandwich": {
+      "zh": "纯素孟买三明治",
+      "note": "印度街头三明治，夹土豆和香菜酸辣酱，微辣"
+    },
+    "Chocolate Cake": {
+      "zh": "巧克力蛋糕",
+      "note": ""
+    },
+    "White Bean Polenta": {
+      "zh": "白豆玉米糊",
+      "note": "绵密，咸口"
+    },
+    "Beef Burger with 1000 Island": {
+      "zh": "千岛酱牛肉汉堡",
+      "note": "千岛酱偏甜，油"
+    },
+    "Vegetarian Malibu Oski Burger": {
+      "zh": "素马里布汉堡（Oski 版）",
+      "note": "蔬菜谷物饼，口感偏软不仿肉；Oski 是伯克利吉祥物"
+    },
+    "Carmalized Onions": {
+      "zh": "焦糖洋葱",
+      "note": "炒到发甜发软"
+    },
+    "Spinach and Tomato Eggs Scramble": {
+      "zh": "菠菜番茄炒蛋",
+      "note": ""
+    },
+    "Hash Brown Patty": {
+      "zh": "薯饼",
+      "note": "煎炸土豆丝饼，外脆"
+    },
+    "Halal Buffalo Chicken Wrap": {
+      "zh": "清真水牛城辣鸡卷",
+      "note": "Buffalo 酱是辣椒加黄油，酸辣明显"
+    },
+    "Roasted Brussels Sprouts": {
+      "zh": "烤抱子甘蓝",
+      "note": "微苦回甘"
+    },
+    "Kosher Chipotle Turkey Breast": {
+      "zh": "洁食烟熏辣椒火鸡胸",
+      "note": "微辣带烟熏味"
+    },
+    "Mushroom Gyro": {
+      "zh": "蘑菇希腊卷饼",
+      "note": "皮塔饼夹蘑菇配酸奶黄瓜酱，不辣"
+    },
+    "Creamy Primavera Sauce": {
+      "zh": "奶油时蔬意面酱",
+      "note": "Primavera 是「春天」，指配时令蔬菜，不辣"
+    },
+    "Vegan Primavera Sauce": {
+      "zh": "纯素时蔬意面酱",
+      "note": "不辣"
+    },
+    "Roasted Carrots": {
+      "zh": "烤胡萝卜",
+      "note": ""
+    },
+    "Halal Beef Stroganoff": {
+      "zh": "清真酸奶油炖牛肉",
+      "note": "俄式做法，酸奶油蘑菇酱，浓郁不辣"
+    },
+    "Tofu Stroganoff": {
+      "zh": "酸奶油炖豆腐",
+      "note": "浓郁不辣"
+    },
+    "Egg Pasta Noodle": {
+      "zh": "鸡蛋面",
+      "note": ""
+    },
+    "Kosher BBQ Baked Chicken": {
+      "zh": "洁食烤肉酱焗鸡",
+      "note": "甜咸带烟熏，不辣"
+    },
+    "BBQ Baked Beans": {
+      "zh": "烤肉酱焗豆",
+      "note": "偏甜，绵软"
+    },
+    "Chickpea Noodle Soup": {
+      "zh": "鹰嘴豆面汤",
+      "note": "素版鸡汤面，清淡"
+    },
+    "Turmeric Basmati Rice with Caramelized Onion": {
+      "zh": "姜黄焦糖洋葱香米饭",
+      "note": "淡黄色，微甜不辣"
+    },
+    "Caprese Sandwich": {
+      "zh": "卡普雷塞三明治",
+      "note": "番茄、马苏里拉、罗勒，清爽不辣"
+    },
+    "Housemade Lemon Pepper Potato Chips": {
+      "zh": "自制柠檬黑胡椒薯片",
+      "note": "黑胡椒味明显"
+    },
+    "Bacon Egg and Cheese English Muffin Sandwich": {
+      "zh": "培根蛋芝士马芬堡",
+      "note": "英式马芬夹料，油"
+    },
+    "Vegan Breakfast Tostada": {
+      "zh": "纯素早餐脆饼",
+      "note": "炸硬的整张玉米饼铺料"
+    },
+    "Grits": {
+      "zh": "玉米糁粥",
+      "note": "美国南方主食，粗玉米粉煮成糊，本身淡口，配咸菜或黄油吃"
+    },
+    "African Chicken & Kale Stew": {
+      "zh": "非洲风味鸡肉羽衣甘蓝炖菜",
+      "note": "常带花生酱底，浓稠微辣"
+    },
+    "Spinach and Onion Tunisian Stew": {
+      "zh": "突尼斯菠菜洋葱炖菜",
+      "note": "常带哈里萨辣酱，微辣"
+    },
+    "Black Pepper Beef": {
+      "zh": "黑椒牛柳",
+      "note": "黑胡椒味重，不算辣"
+    },
+    "Sweet & Sour Tofu": {
+      "zh": "糖醋豆腐",
+      "note": "酸甜，不辣"
+    },
+    "Fried Tofu": {
+      "zh": "炸豆腐",
+      "note": "外脆内嫩，油"
+    },
+    "Tomato Gravy (Halal)": {
+      "zh": "番茄浓酱（清真）",
+      "note": "浇饭浇肉用，不辣"
+    },
+    "Mushroom and Kale Eggs Scramble": {
+      "zh": "蘑菇羽衣甘蓝炒蛋",
+      "note": ""
+    },
+    "Vegan Quiche": {
+      "zh": "纯素咸派",
+      "note": "酥皮底填蔬菜蛋液（这里用豆制品），咸口"
+    },
+    "Halal Rendang Beef Stew": {
+      "zh": "清真仁当牛肉",
+      "note": "印尼名菜，椰浆和香料收干到几乎无汁，香料浓郁，中等偏辣"
+    },
+    "Linguini Pasta": {
+      "zh": "扁细意面",
+      "note": ""
+    },
+    "Aurora Sauce": {
+      "zh": "番茄奶油酱",
+      "note": "番茄酱加奶油调成的粉橙色酱，温和不辣"
+    },
+    "Baked Chicken Breast": {
+      "zh": "焗鸡胸",
+      "note": "偏柴，调味清淡"
+    },
+    "Rice Congee": {
+      "zh": "白粥",
+      "note": ""
+    },
+    "Halal Baked Jade Pesto Salmon": {
+      "zh": "清真青酱烤三文鱼",
+      "note": "香草青酱，不辣"
+    },
+    "Lacquered Red Curry Tempeh with Rice & Sesame Pepita Crunch Topping": {
+      "zh": "红咖喱天贝配米饭和芝麻南瓜籽脆粒",
+      "note": "天贝是发酵大豆块，口感扎实带菌香；红咖喱中等辣度"
+    },
+    "Asian Coleslaw Salad": {
+      "zh": "亚洲风味凉拌菜丝",
+      "note": "芝麻酱油底，比美式清爽"
+    },
+    "Lemon Rice Pilaf": {
+      "zh": "柠檬抓饭",
+      "note": "清爽不辣"
+    },
+    "Roasted Fingerling Potatoes with Artichokes": {
+      "zh": "烤手指土豆配洋蓟",
+      "note": "洋蓟口感像笋尖，微酸"
+    },
+    "Garlic Citrus Tofu": {
+      "zh": "蒜香柑橘豆腐",
+      "note": "酸香不辣"
+    },
+    "Maple Roasted Butternut Squash": {
+      "zh": "枫糖烤南瓜",
+      "note": "偏甜"
+    },
+    "Orange Sauce": {
+      "zh": "橙味酱",
+      "note": "偏甜"
+    },
+    "Chile Verde Breakfast Casserole": {
+      "zh": "青辣椒早餐焗菜",
+      "note": "绿番茄青椒底，微辣"
+    },
+    "Banana Pancakes": {
+      "zh": "香蕉松饼",
+      "note": ""
+    },
+    "Mediterranean Lentil Salad": {
+      "zh": "地中海扁豆沙拉",
+      "note": "冷食，柠檬橄榄油调味，清爽"
+    },
+    "Pork Ramen Noodles": {
+      "zh": "猪肉拉面",
+      "note": ""
+    },
+    "Vegetable Ramen": {
+      "zh": "素拉面",
+      "note": ""
+    },
+    "Vegan Sweet Potato and Black Bean Taco": {
+      "zh": "纯素红薯黑豆塔可",
+      "note": "微甜不辣"
+    },
+    "Halal Chimichuri Grilled Tri Tip": {
+      "zh": "清真青酱烤牛三角肉",
+      "note": "牛臀腰三角部位，偏瘦有嚼劲；青酱由欧芹、大蒜、橄榄油、红酒醋调成，酸香不辣"
+    },
+    "Latin-style Sauteed Chicken Vegan": {
+      "zh": "拉美风味炒「鸡」（纯素）",
+      "note": "植物肉，孜然辣椒粉调味，微辣"
+    },
+    "Lemon Thyme Baked Chicken": {
+      "zh": "柠檬百里香烤鸡",
+      "note": "清淡不辣"
+    },
+    "Cilantro Lime Couscous": {
+      "zh": "香菜青柠北非小米",
+      "note": "其实是小颗粒面食，不是米；清爽"
+    },
+    "Paella Base": {
+      "zh": "西班牙烩饭饭底",
+      "note": "藏红花番茄底的米饭，本身不辣"
+    },
+    "Halal Vegetable Paella": {
+      "zh": "清真蔬菜西班牙烩饭",
+      "note": "藏红花香气，不辣"
+    },
+    "Garlic Potato Wedges": {
+      "zh": "蒜香角切薯块",
+      "note": ""
+    },
+    "Harissa Roasted Chicken": {
+      "zh": "北非辣酱烤鸡",
+      "note": "Harissa 是突尼斯红辣酱，孜然芫荽味重，明显偏辣"
+    },
+    "Overnight Oats with Peach": {
+      "zh": "桃子隔夜燕麦",
+      "note": "燕麦泡奶冷藏一夜，凉着吃，微甜"
+    },
+    "Chocolate Hazelnut Beignets": {
+      "zh": "巧克力榛子炸面包",
+      "note": "新奥尔良式炸面团，外撒糖粉，很甜很油"
+    },
+    "Blacked Eyed Peas Stew": {
+      "zh": "炖豇豆",
+      "note": "咸香不辣（站点把 Black 拼成了 Blacked）"
+    },
+    "Hominy": {
+      "zh": "碱化玉米粒",
+      "note": "玉米碱处理后胀大，口感糯，墨西哥汤里常见"
+    },
+    "Halal Curried Chicken Breast": {
+      "zh": "清真咖喱鸡胸",
+      "note": "中等辣度"
+    },
+    "Steamed Mint Peas": {
+      "zh": "薄荷蒸豌豆",
+      "note": "清爽"
+    },
+    "Kosher Chicken Adobo Stew": {
+      "zh": "洁食阿斗波炖鸡",
+      "note": "菲律宾做法，醋和酱油慢炖，酸咸突出，不辣"
+    },
+    "Tomato Couscous Salad": {
+      "zh": "番茄北非小米沙拉",
+      "note": "冷食，清爽"
+    },
+    "Halal Beef Broccoli": {
+      "zh": "清真西兰花炒牛肉",
+      "note": "蚝油甜咸，不辣"
+    },
+    "Garlic Roasted Gai Lan": {
+      "zh": "蒜香烤芥兰",
+      "note": "微苦"
+    },
+    "Kosher Chicken Pozole": {
+      "zh": "洁食墨西哥玉米粒鸡汤",
+      "note": "Pozole 用碱化玉米粒炖成，汤浓，微辣"
+    },
+    "White Bean Salsa": {
+      "zh": "白豆莎莎",
+      "note": "清爽，基本不辣"
+    },
+    "Sweet Chili Tofu": {
+      "zh": "甜辣豆腐",
+      "note": "以甜为主，微辣"
+    },
+    "Baked Smothered Chicken": {
+      "zh": "浓汁焗鸡",
+      "note": "美国南方做法，鸡肉浇厚洋葱肉汁，咸香偏油"
+    },
+    "Pecan Pie": {
+      "zh": "山核桃派",
+      "note": "非常甜，糖浆底"
+    },
+    "Piri Piri Roasted Chicken": {
+      "zh": "霹雳霹雳烤鸡",
+      "note": "非洲鸟眼椒辣酱，辣度偏高，酸香"
+    },
+    "Roasted Piri Piri Tofu": {
+      "zh": "霹雳霹雳烤豆腐",
+      "note": "鸟眼椒辣酱，偏辣"
+    },
+    "Golden Turmeric Basmati Rice": {
+      "zh": "金色姜黄香米饭",
+      "note": "姜黄上色，不辣"
+    },
+    "Omelet": {
+      "zh": "煎蛋卷",
+      "note": ""
+    },
+    "Roasted Lamb Leg": {
+      "zh": "烤羊腿",
+      "note": "膻味明显"
+    },
+    "Steamed Parsley Potato": {
+      "zh": "欧芹蒸土豆",
+      "note": ""
+    },
+    "Vegan French Toast": {
+      "zh": "纯素法式吐司",
+      "note": ""
+    },
+    "Breakfast Congee": {
+      "zh": "早餐粥",
+      "note": ""
+    },
+    "Moroccan Spiced Lentils": {
+      "zh": "摩洛哥香料扁豆",
+      "note": "孜然肉桂味，不辣"
+    },
+    "Vanilla Overnight Oats": {
+      "zh": "香草隔夜燕麦",
+      "note": "凉着吃，微甜"
+    },
+    "Shrimp Pancit": {
+      "zh": "菲式虾仁炒面",
+      "note": "Pancit 是菲律宾炒米粉/面，酱油青柠调味，不辣"
+    },
+    "Steamed Broccolini with Lemon": {
+      "zh": "柠檬蒸西兰苔",
+      "note": ""
     }
   },
   "stations": {
@@ -3335,6 +3899,13 @@
     "Deli Bar / Fruit": "熟食吧/水果",
     "Chefs Table": "主厨餐台",
     "Fruit": "水果台",
-    "Hot Cereals/Grains": "热麦片/谷物台"
+    "Hot Cereals/Grains": "热麦片/谷物台",
+    "Made To Order": "现点现做台",
+    "Kosher Station": "洁食台",
+    "Soft Serve": "软冰淇淋机",
+    "Breakfast Special": "早餐特供台",
+    "Centerplate": "主菜台",
+    "Soup/Hot Grains": "汤/热粥台",
+    "Midday Mains": "午间主菜台"
   }
 }
