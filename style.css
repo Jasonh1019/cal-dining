@@ -132,7 +132,7 @@ main { padding: 0 0 32px; }
 
 .meal { border-bottom: 1px solid var(--line); }
 
-.meal summary {
+.meal > details > summary {
   display: flex;
   align-items: baseline;
   gap: 8px;
@@ -146,9 +146,9 @@ main { padding: 0 0 32px; }
   background: var(--bg);
   z-index: 5;
 }
-.meal summary::-webkit-details-marker { display: none; }
+.meal > details > summary::-webkit-details-marker { display: none; }
 
-.meal summary { flex-wrap: wrap; }
+.meal > details > summary { flex-wrap: wrap; }
 
 .meal-zh { font-size: 19px; font-weight: 700; }
 .meal-en { font-size: 13px; color: var(--ink-3); }
@@ -183,17 +183,47 @@ main { padding: 0 0 32px; }
   .mstatus.soon    { background: rgba(240, 160, 40, .16); color: #eda63f; }
 }
 
-.meal summary::after {
+.meal > details > summary::after {
   content: "▾";
   color: var(--ink-3);
   font-size: 12px;
   transition: transform .15s;
 }
-.meal details[open] summary::after { transform: rotate(180deg); }
+.meal > details[open] > summary::after { transform: rotate(180deg); }
 
 /* ---------- 档口 ---------- */
 
 .station { padding: 0 max(16px, env(safe-area-inset-left)) 4px; }
+
+/* 档口可折叠：整个标题行就是点击区 */
+.station > summary {
+  list-style: none;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+.station > summary::-webkit-details-marker { display: none; }
+
+/* 条目数：折起来时靠它判断里面有多少东西 */
+.st-count {
+  margin-left: auto;
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--ink-3);
+  white-space: nowrap;
+}
+
+/* 折叠箭头，跟餐段那个一致 */
+.station > summary h3::after {
+  content: "▾";
+  color: var(--ink-3);
+  font-size: 12px;
+  font-weight: 400;
+  transition: transform .15s;
+}
+.station[open] > summary h3::after { transform: rotate(180deg); }
+
+/* 折起来时金线贴着标题，不留空 */
+.station:not([open]) h3 { margin-bottom: 0; }
 
 /*
  * 档口标题要一眼看出是标题。之前 15px 反而比菜名(16px)还小，

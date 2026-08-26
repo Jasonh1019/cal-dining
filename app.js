@@ -325,16 +325,41 @@ function countItems(meal) {
   return meal.stations.reduce((n, s) => n + s.items.length, 0);
 }
 
+/*
+ * 沙拉台这类档口条目特别多（平均 28 道，最多 39），全摊开会把
+ * 后面的主菜挤到看不见。超过这个数就默认折起来，其余照常展开。
+ * 实测只有 Salad Bar 和 Cold Food Bar 会被折叠，别的档口中位数才 3 道。
+ */
+const BIG_STATION = 12;
+
+function stationPrefs() {
+  try {
+    return JSON.parse(localStorage.getItem('cal-dining-stations') || '{}');
+  } catch (e) {
+    return {};
+  }
+}
+
+// 用户手动折过/展过的，听用户的；没表过态的按条目数决定
+function stationOpen(station) {
+  const saved = stationPrefs()[station.name];
+  return typeof saved === 'boolean' ? saved : station.items.length < BIG_STATION;
+}
+
 function renderStation(station) {
   const zh = state.glossary.stations[station.name];
+  const open = stationOpen(station);
   return `
-    <div class="station">
-      <h3>
-        <span class="st-en">${escapeHtml(station.name)}</span>
-        ${zh ? `<span class="st-zh">${escapeHtml(zh)}</span>` : '<span class="st-todo">待译</span>'}
-      </h3>
+    <details class="station" ${open ? 'open' : ''} data-station="${escapeAttr(station.name)}" data-count="${station.items.length}">
+      <summary>
+        <h3>
+          <span class="st-en">${escapeHtml(station.name)}</span>
+          ${zh ? `<span class="st-zh">${escapeHtml(zh)}</span>` : '<span class="st-todo">待译</span>'}
+          <span class="st-count">${station.items.length} 道</span>
+        </h3>
+      </summary>
       <ul class="dishes">${station.items.map(renderItem).join('')}</ul>
-    </div>`;
+    </details>`;
 }
 
 function renderItem(item) {
@@ -378,6 +403,33 @@ document.addEventListener('click', (e) => {
   }
   render();
   window.scrollTo({ top: 0 });
+});
+
+/*
+ * 记住用户手动折叠/展开的档口。
+ *
+ * 不能监听 toggle —— 每次重渲染，浏览器会给所有默认展开的 <details>
+ * 补发一遍 toggle，把没碰过的档口全存成「用户展开的」。改成监听点击：
+ * 这时默认行为还没执行，el.open 还是旧值，取反就是即将变成的状态。
+ *
+ * 只存跟默认不一样的选择，存储里就不会堆一堆没用的记录，
+ * 以后调整 BIG_STATION 阈值也能立刻对老用户生效。
+ */
+document.addEventListener('click', (e) => {
+  const summary = e.target.closest && e.target.closest('.station > summary');
+  if (!summary) return;
+
+  const el = summary.parentElement;
+  const willOpen = !el.open;
+  const isDefault = willOpen === (Number(el.dataset.count) < BIG_STATION);
+
+  const prefs = stationPrefs();
+  if (isDefault) delete prefs[el.dataset.station];
+  else prefs[el.dataset.station] = willOpen;
+
+  try {
+    localStorage.setItem('cal-dining-stations', JSON.stringify(prefs));
+  } catch (err) { /* 隐私模式下写不了，忽略 */ }
 });
 
 window.addEventListener('resize', measureHeader);
