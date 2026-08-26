@@ -3847,6 +3847,206 @@
     "Steamed Broccolini with Lemon": {
       "zh": "柠檬蒸西兰苔",
       "note": ""
+    },
+    "Grilled Cajun Salmon": {
+      "zh": "卡真烤三文鱼",
+      "note": "卡真香料带辣椒粉，微辣"
+    },
+    "Vegan Tartar Sauce": {
+      "zh": "纯素塔塔酱",
+      "note": "素蛋黄酱加酸黄瓜末，酸咸，配炸鱼"
+    },
+    "Baked Rockfish with Piccata Sauce": {
+      "zh": "柠檬酸豆烤石斑鱼",
+      "note": "Piccata 是柠檬加刺山柑的酱，酸咸不辣"
+    },
+    "Fajita Spice Blend": {
+      "zh": "法士达混合香料",
+      "note": "孜然辣椒粉为主，微辣"
+    },
+    "Jamaican Chickpea White": {
+      "zh": "牙买加白汁鹰嘴豆",
+      "note": "椰浆底炖鹰嘴豆，温和不辣"
+    },
+    "Gardein BBQ Sandwich": {
+      "zh": "植物肉 BBQ 三明治",
+      "note": "Gardein 是植物肉品牌，烧烤酱甜咸带烟熏，不辣"
+    },
+    "Kale Pesto Fettuccine": {
+      "zh": "羽衣甘蓝青酱宽面",
+      "note": "青酱偏油，不辣"
+    },
+    "Roasted BBQ Cauliflower": {
+      "zh": "BBQ 烤花菜",
+      "note": "甜咸带烟熏，不辣"
+    },
+    "Broccoli Rice Gratin": {
+      "zh": "西兰花芝士焗饭",
+      "note": "奶油芝士焗，浓腻"
+    },
+    "Miso Glazed Cod": {
+      "zh": "味增烤鳕鱼",
+      "note": "味增糖渍后烤，咸甜，鱼肉细嫩"
+    },
+    "Beef Bulgogi": {
+      "zh": "韩式烤牛肉",
+      "note": "酱油梨汁腌过的薄牛肉片，甜咸不辣"
+    },
+    "Vegan Baked Tofu Bulgogi": {
+      "zh": "韩式烤汁豆腐",
+      "note": "甜咸不辣"
+    },
+    "Baked Banana French Toast Casserole": {
+      "zh": "香蕉法式吐司焗盘",
+      "note": "面包泡蛋奶液烤成，很甜，湿软"
+    },
+    "Italian Ragu Ground Lamb": {
+      "zh": "意式羊肉酱",
+      "note": "羊膻味明显，酱汁浓，不辣"
+    },
+    "Black Olive": {
+      "zh": "黑橄榄",
+      "note": "咸"
+    },
+    "Baja Fish Taco": {
+      "zh": "下加州炸鱼塔可",
+      "note": "墨西哥下加州做法，裹粉炸鱼配卷心菜丝和白酱，油，不辣"
+    },
+    "Vegan Crispy Potato Soyrizo Taco": {
+      "zh": "纯素脆土豆素辣肠塔可",
+      "note": "Soyrizo 是大豆仿西班牙辣肠，红椒粉味重，微辣"
+    },
+    "Sauteed Onion Peppers": {
+      "zh": "炒洋葱甜椒",
+      "note": ""
+    },
+    "Creamy Chipotle Shrimp Sauce": {
+      "zh": "奶油烟熏辣椒虾酱",
+      "note": "微辣带烟熏味，浓"
+    },
+    "Alex Guaranschelli's Arrabbiata Sauce": {
+      "zh": "辣味番茄酱（名厨版）",
+      "note": "Arrabbiata 意为「发怒的」，就是加干辣椒的番茄酱，微辣；冠名的是美国名厨 Alex Guarnaschelli"
+    },
+    "Vegan Chili Hot Dog": {
+      "zh": "纯素辣酱热狗",
+      "note": "浇豆子辣酱，微辣"
+    },
+    "Kosher Mashed Potato": {
+      "zh": "洁食土豆泥",
+      "note": ""
+    },
+    "Halal Honey Mustard Chicken Thigh": {
+      "zh": "清真蜂蜜芥末鸡腿",
+      "note": "甜中带芥末酸，不辣"
+    },
+    "Rosemary Parmesan Potato Wedges": {
+      "zh": "迷迭香帕玛森薯块",
+      "note": ""
+    },
+    "Kosher Herb Roasted Chicken": {
+      "zh": "洁食香草烤鸡",
+      "note": "清淡不辣"
+    },
+    "Tuscan White Bean Orzo": {
+      "zh": "托斯卡纳白豆米粒面",
+      "note": "Orzo 是米粒形状的意面，不是米；清淡"
+    },
+    "Halal Beef Bolognese Sauce": {
+      "zh": "清真博洛尼亚牛肉酱",
+      "note": "经典肉酱，不辣"
+    },
+    "Nancy Silverton's Sauteed Spinach with Lemon & Garlic": {
+      "zh": "柠檬蒜香炒菠菜（名厨版）",
+      "note": "清爽不辣；冠名的是洛杉矶名厨 Nancy Silverton"
+    },
+    "Halal Huli Grilled Chicken Thigh": {
+      "zh": "清真夏威夷烤鸡腿",
+      "note": "Huli Huli 是夏威夷烤肉酱，酱油菠萝底，甜咸不辣"
+    },
+    "BBQ Braised Beef Brisket": {
+      "zh": "BBQ 炖牛胸肉",
+      "note": "牛胸肉炖到软烂，甜咸带烟熏，偏油"
+    },
+    "Java Beef Curry": {
+      "zh": "爪哇牛肉咖喱",
+      "note": "印尼风味，椰浆香料底，中等辣度"
+    },
+    "Lemongrass Pork Chop": {
+      "zh": "香茅猪排",
+      "note": "越式风味，香茅蒜香，不辣"
+    },
+    "Roasted Root Vegetables": {
+      "zh": "烤根茎蔬菜",
+      "note": "胡萝卜土豆芜菁一类，清淡"
+    },
+    "Halal French Toast": {
+      "zh": "清真法式吐司",
+      "note": ""
+    },
+    "Smoked Cajun-Style Turkey Breast": {
+      "zh": "卡真烟熏火鸡胸",
+      "note": "微辣带烟熏味"
+    },
+    "Au Gratin Potatoes": {
+      "zh": "芝士焗土豆片",
+      "note": "奶油芝士层层焗烤，浓腻"
+    },
+    "Baked Lentil Shakshuka": {
+      "zh": "扁豆番茄焗蛋",
+      "note": "中东做法，番茄辣椒底焖蛋，微辣"
+    },
+    "Halal Baja Fish Taco": {
+      "zh": "清真下加州炸鱼塔可",
+      "note": "裹粉炸鱼配卷心菜丝，油，不辣"
+    },
+    "Chicken Shawarma Bowl": {
+      "zh": "沙威玛烤鸡饭碗",
+      "note": "中东旋转烤肉风味，香料浓不辣"
+    },
+    "Halal Mediterranean Baked Chicken Breast": {
+      "zh": "清真地中海烤鸡胸",
+      "note": "柠檬香草味，不辣"
+    },
+    "Vegan Creole Potato Salad": {
+      "zh": "纯素克里奥尔土豆沙拉",
+      "note": "带芥末和辣椒粉，冷食，微辣"
+    },
+    "Vegetable Fajita Burrito": {
+      "zh": "蔬菜法士达卷饼",
+      "note": "不辣"
+    },
+    "Vegetarian Breakfast Burrito": {
+      "zh": "素早餐卷饼",
+      "note": "蛋、土豆、芝士为主"
+    },
+    "Lentil Picadillo": {
+      "zh": "扁豆版墨西哥碎肉烩",
+      "note": "Picadillo 是番茄底炖碎料，常加橄榄和葡萄干，微甜不辣"
+    },
+    "Chicken Pho": {
+      "zh": "越南鸡肉河粉",
+      "note": "清汤加八角桂皮，本身不辣，辣度看你加多少辣酱"
+    },
+    "Vegan Pho": {
+      "zh": "纯素越南河粉",
+      "note": "菌菇清汤底，不辣"
+    },
+    "Lentil Bulgogi": {
+      "zh": "韩式烤汁扁豆",
+      "note": "甜咸不辣"
+    },
+    "Loaded Beef Bulgogi and Kim Chi Fries": {
+      "zh": "韩式烤牛肉泡菜薯条",
+      "note": "薯条上铺烤牛肉和泡菜，分量大，很油，微辣"
+    },
+    "Baby Kale with Lemon and Olive Oil": {
+      "zh": "柠檬橄榄油拌嫩羽衣甘蓝",
+      "note": "生食，清爽微苦"
+    },
+    "Quinoa Pilaf": {
+      "zh": "藜麦抓饭",
+      "note": "颗粒小有嚼劲"
     }
   },
   "stations": {
