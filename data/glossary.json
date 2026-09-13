@@ -4047,6 +4047,414 @@
     "Quinoa Pilaf": {
       "zh": "藜麦抓饭",
       "note": "颗粒小有嚼劲"
+    },
+    "Halal Tater Tot Nachos with Beef": {
+      "zh": "清真牛肉薯饼粒玉米片",
+      "note": "薯饼粒代替玉米片，铺牛肉末和芝士酱，很油，微辣"
+    },
+    "Sweet Chili Chicken Noodle Stir-Fry": {
+      "zh": "甜辣鸡肉炒面",
+      "note": "以甜为主，微辣"
+    },
+    "Garlic Chow Mein": {
+      "zh": "蒜香炒面",
+      "note": ""
+    },
+    "Roasted Crimini Mushroom": {
+      "zh": "烤褐蘑菇",
+      "note": "比白蘑菇味道浓"
+    },
+    "Saffron Coriander Pilaf Rice": {
+      "zh": "藏红花芫荽籽抓饭",
+      "note": "香气特别，不辣"
+    },
+    "Sauteed Onion Pepper Mushroom": {
+      "zh": "炒洋葱甜椒蘑菇",
+      "note": ""
+    },
+    "Halal Achiote Crusted Roast Beef": {
+      "zh": "清真胭脂树籽烤牛肉",
+      "note": "Achiote 是墨西哥胭脂树籽，上色带土香，不辣"
+    },
+    "Horseradish-Crusted Cod": {
+      "zh": "辣根脆皮鳕鱼",
+      "note": "辣根就是西式芥末根，冲鼻但不是辣椒的辣"
+    },
+    "Leek & Mushroom Quinoa": {
+      "zh": "韭葱蘑菇藜麦",
+      "note": ""
+    },
+    "Sun Dried Tomato Basil Frittata": {
+      "zh": "番茄干罗勒意式烘蛋",
+      "note": "Frittata 是厚蛋饼，烤成的，不辣"
+    },
+    "Halal Huli Huli Grilled Chicken Thigh": {
+      "zh": "清真夏威夷烤鸡腿",
+      "note": "Huli Huli 是夏威夷烤肉酱，酱油菠萝底，甜咸不辣"
+    },
+    "Halal Santa Maria Tri Tip": {
+      "zh": "清真圣玛丽亚烤牛三角肉",
+      "note": "加州中部做法，蒜和黑胡椒调味，偏瘦有嚼劲，不辣"
+    },
+    "Halal Herb Roasted Beef": {
+      "zh": "清真香草烤牛肉",
+      "note": "不辣"
+    },
+    "Moroccan White Bean Stew": {
+      "zh": "摩洛哥白豆炖菜",
+      "note": "孜然肉桂香料，不辣"
+    },
+    "Moroccan Honey‑Glazed Carrots": {
+      "zh": "摩洛哥蜜汁胡萝卜",
+      "note": "偏甜"
+    },
+    "Black Forest Cake": {
+      "zh": "黑森林蛋糕",
+      "note": "巧克力蛋糕夹樱桃和奶油"
+    },
+    "Steamed Bok Choy": {
+      "zh": "清蒸青江菜",
+      "note": ""
+    },
+    "Halal Broccoli and Feta Frittata": {
+      "zh": "清真西兰花羊乳酪烘蛋",
+      "note": "Feta 咸味明显"
+    },
+    "Lentil, Mushroom & Cauliflower Crumble": {
+      "zh": "扁豆蘑菇花菜酥顶焗",
+      "note": "上面盖一层酥粒烤，素，不辣"
+    },
+    "Vegetable Lo Mein": {
+      "zh": "素捞面",
+      "note": "美式中餐，酱油拌面，偏油"
+    },
+    "Herb Roasted Chicken Thigh": {
+      "zh": "香草烤鸡腿",
+      "note": "不辣"
+    },
+    "Parmesan Meatball Pizza": {
+      "zh": "帕玛森肉丸披萨",
+      "note": "油"
+    },
+    "Sauteed Corn Onion and Squash": {
+      "zh": "炒玉米洋葱西葫芦",
+      "note": ""
+    },
+    "Halal Baked Chicken Breast": {
+      "zh": "清真焗鸡胸",
+      "note": "偏柴，调味清淡"
+    },
+    "Halal Tandoori Chicken Breast": {
+      "zh": "清真坦都里烤鸡胸",
+      "note": "酸奶香料腌过再烤，中等辣度"
+    },
+    "Beef Stuffed Bell Pepper": {
+      "zh": "牛肉酿彩椒",
+      "note": "不辣"
+    },
+    "Garlic and Cilantro Quinoa": {
+      "zh": "蒜香香菜藜麦",
+      "note": ""
+    },
+    "Louisiana Beef Hot Links": {
+      "zh": "路易斯安那牛肉辣肠",
+      "note": "Hot Links 是烟熏辣肠，偏辣，油"
+    },
+    "Caribbean Rice & Peas Bake": {
+      "zh": "加勒比椰香豆饭焗",
+      "note": "peas 其实是红芸豆，椰浆煮，微甜不辣"
+    },
+    "Halal Ginger Steamed Rockfish": {
+      "zh": "清真姜蒸石斑鱼",
+      "note": "清淡"
+    },
+    "Mojo Chicken": {
+      "zh": "古巴莫霍鸡",
+      "note": "蒜和酸橙汁腌，酸香不辣"
+    },
+    "Chipotle Lime Lentil Taco Filling": {
+      "zh": "烟熏辣椒青柠扁豆塔可馅",
+      "note": "微辣"
+    },
+    "Cuban Black Beans & Rice": {
+      "zh": "古巴黑豆饭",
+      "note": "咸香不辣"
+    },
+    "Halal Crispy Chicken Salad with Ranch": {
+      "zh": "清真炸鸡沙拉配牧场酱",
+      "note": "牧场酱是白色蒜香酸奶油酱，偏油"
+    },
+    "Halal Thai Coconut Curry Chicken": {
+      "zh": "清真泰式椰浆咖喱鸡",
+      "note": "椰浆底，中等辣度"
+    },
+    "Kosher Creole Potato Salad": {
+      "zh": "洁食克里奥尔土豆沙拉",
+      "note": "带芥末和辣椒粉，冷食，微辣"
+    },
+    "Halal Shredded Chicken Tinga": {
+      "zh": "清真墨西哥烟熏辣鸡丝",
+      "note": "番茄加 chipotle 烟熏辣椒炖的手撕鸡，中等辣度"
+    },
+    "Halal Beef Sloppy Joe Sandwich": {
+      "zh": "清真美式肉酱堡",
+      "note": "碎牛肉煮在偏甜的番茄酱里夹汉堡包，会流汁"
+    },
+    "Lentil Sloppy Joe Sandwich": {
+      "zh": "扁豆版美式肉酱堡",
+      "note": "素，偏甜"
+    },
+    "Five-Spice Barley, Kale & Tofu": {
+      "zh": "五香大麦羽衣甘蓝豆腐",
+      "note": "有嚼劲，不辣"
+    },
+    "Halal Chicken Tenders": {
+      "zh": "清真炸鸡柳",
+      "note": "裹粉油炸，不辣"
+    },
+    "Cucumber & Tomato Salad": {
+      "zh": "黄瓜番茄沙拉",
+      "note": "冷食清爽"
+    },
+    "Kosher Roasted Teriyaki Chicken Thigh": {
+      "zh": "洁食照烧烤鸡腿",
+      "note": "甜咸不辣"
+    },
+    "Panzanella Salad": {
+      "zh": "托斯卡纳面包沙拉",
+      "note": "隔夜面包块拌番茄和油醋，冷食"
+    },
+    "Summer Squash Blend": {
+      "zh": "夏季南瓜什锦",
+      "note": "西葫芦一类，清淡"
+    },
+    "BBQ Beef Brisket": {
+      "zh": "BBQ 牛胸肉",
+      "note": "炖到软烂，甜咸带烟熏，偏油"
+    },
+    "Kosher Cacciatore Chicken Breast": {
+      "zh": "洁食猎人风味鸡胸",
+      "note": "番茄彩椒蘑菇炖，不辣"
+    },
+    "Japanese Cucumber Salad (Sunomono)": {
+      "zh": "日式醋拌黄瓜",
+      "note": "酸甜爽口"
+    },
+    "Sauteed Kale Mushroom": {
+      "zh": "炒羽衣甘蓝蘑菇",
+      "note": ""
+    },
+    "Chicken Nuggets": {
+      "zh": "鸡块",
+      "note": "裹粉油炸"
+    },
+    "Jalapeno Cheddar Mac & Cheese": {
+      "zh": "墨西哥辣椒切达芝士通心粉",
+      "note": "浓腻，微辣"
+    },
+    "Louisiana-style Hot Links": {
+      "zh": "路易斯安那辣肠",
+      "note": "烟熏辣肠，偏辣，油"
+    },
+    "Martha Stewart's Vibrant Green Broccoli Curry": {
+      "zh": "翠绿西兰花咖喱（名厨版）",
+      "note": "椰浆绿咖喱底，微辣；冠名的是 Martha Stewart"
+    },
+    "Chickpea Apricot Tagine": {
+      "zh": "鹰嘴豆杏干塔吉锅",
+      "note": "北非炖菜，微甜带香料，不辣"
+    },
+    "Creole Baked Tilapia": {
+      "zh": "克里奥尔烤罗非鱼",
+      "note": "卡真系香料，微辣"
+    },
+    "Black Bean Burger": {
+      "zh": "黑豆汉堡",
+      "note": "素肉饼，口感偏软"
+    },
+    "Southern Smothered Onion Potato": {
+      "zh": "南方浓汁洋葱土豆",
+      "note": "浇洋葱肉汁，偏油"
+    },
+    "Cilantro Lime Beef Rice Bowl": {
+      "zh": "香菜青柠牛肉饭碗",
+      "note": "不辣"
+    },
+    "Alicia Villanueva's Chicken Tamales": {
+      "zh": "墨西哥鸡肉粽（玉米粽）",
+      "note": "Tamale 是玉米面团包馅蒸熟，玉米皮不能吃；冠名的是厨师 Alicia Villanueva"
+    },
+    "Alicia Villanueva's Mushroom Tamales": {
+      "zh": "墨西哥蘑菇玉米粽",
+      "note": "玉米面团包蘑菇蒸熟，玉米皮不能吃"
+    },
+    "Chipotle Red Salsa": {
+      "zh": "烟熏辣椒红莎莎",
+      "note": "中等辣度"
+    },
+    "Tomatillo Sauce": {
+      "zh": "绿番茄酱",
+      "note": "酸味突出，微辣"
+    },
+    "Southwest Beef Fajita Rice": {
+      "zh": "西南风味牛肉法士达饭",
+      "note": "微辣"
+    },
+    "Shredded Green Cabbage": {
+      "zh": "绿卷心菜丝",
+      "note": ""
+    },
+    "Vegan Pozole": {
+      "zh": "纯素墨西哥玉米粒汤",
+      "note": "碱化玉米粒炖成，汤浓，微辣"
+    },
+    "Cactus Salad with Avocado, Tomato & Queso Fresco": {
+      "zh": "仙人掌沙拉配牛油果番茄鲜奶酪",
+      "note": "仙人掌片口感像青椒带点黏，酸爽"
+    },
+    "Mango Jicama Salad with Tajín": {
+      "zh": "芒果豆薯沙拉配 Tajín",
+      "note": "Tajín 是墨西哥辣椒青柠盐，酸甜微辣，豆薯很脆"
+    },
+    "Churro": {
+      "zh": "吉拿棒",
+      "note": "炸面条裹肉桂糖，很甜很油"
+    },
+    "Mexican Inspired Soft Serve": {
+      "zh": "墨西哥风味软冰淇淋",
+      "note": ""
+    },
+    "Horchata": {
+      "zh": "墨西哥米浆",
+      "note": "肉桂米奶饮料，甜"
+    },
+    "Halal Szechuan-style Chicken": {
+      "zh": "清真川味鸡",
+      "note": "麻辣，是这里少数真的辣的菜"
+    },
+    "Birria Tacos": {
+      "zh": "墨西哥炖肉塔可",
+      "note": "Birria 是辣椒香料炖牛肉，塔可蘸肉汤吃，中等辣度，油"
+    },
+    "Cheese Quesadilla": {
+      "zh": "芝士薄饼卷",
+      "note": ""
+    },
+    "Pork Pozole": {
+      "zh": "墨西哥猪肉玉米粒汤",
+      "note": "碱化玉米粒炖猪肉，汤浓，微辣"
+    },
+    "Shrimp Ceviche": {
+      "zh": "虾仁柠檬汁腌生",
+      "note": "Ceviche 是生海鲜用青柠汁「腌熟」，冷食，酸，可能带辣"
+    },
+    "Beef Siga Tibs": {
+      "zh": "埃塞尔比亚炒牛肉",
+      "note": "Siga Tibs 是牛肉块配洋葱辣椒炒，带 berbere 香料，中等辣度"
+    },
+    "Salmon with Moroccan Charmoula": {
+      "zh": "三文鱼配摩洛哥香草酱",
+      "note": "Charmoula 是香菜欧芹柠檬孜然酱，不辣"
+    },
+    "Vegan Tofu Siga Tibs Stew": {
+      "zh": "纯素埃塞尔比亚炒豆腐炖菜",
+      "note": "berbere 香料，中等辣度"
+    },
+    "Gomen Collard Greens": {
+      "zh": "埃塞尔比亚炒羽衣甘蓝",
+      "note": "蒜姜炒，微辣"
+    },
+    "Ethiopian Tomato Salad": {
+      "zh": "埃塞尔比亚番茄沙拉",
+      "note": "冷食，可能带青椒"
+    },
+    "Buticha": {
+      "zh": "埃塞尔比亚鹰嘴豆泥",
+      "note": "Buticha 是鹰嘴豆粉加柠檬青椒搅成，像素蛋沙拉，微辣"
+    },
+    "Vinegar-Based Slaw": {
+      "zh": "醋拌菜丝",
+      "note": "不放蛋黄酱，酸爽"
+    },
+    "Sand Bass Ceviche": {
+      "zh": "海鲈柠檬汁腌生",
+      "note": "生鱼用青柠汁腌，冷食，酸"
+    },
+    "Cake Lemon Leche": {
+      "zh": "柠檬三奶蛋糕",
+      "note": "泡炼乳的湿软蛋糕，很甜"
+    },
+    "Roasted Vegetable Quinoa Wrap": {
+      "zh": "烤蔬菜藜麦卷饼",
+      "note": "素，不辣"
+    },
+    "Sushi Rice": {
+      "zh": "寿司饭",
+      "note": "加醋调味的米饭，微酸甜"
+    },
+    "Beef Kaldereta": {
+      "zh": "菲式番茄炖牛肉",
+      "note": "Kaldereta 是番茄肝酱炖牛肉，浓郁，微辣"
+    },
+    "Sauteed Cabbage and Fermented Black Beans": {
+      "zh": "豆豉炒卷心菜",
+      "note": "咸香"
+    },
+    "Chicken and Waffles": {
+      "zh": "炸鸡配华夫饼",
+      "note": "美国南方组合，淋枫糖浆，甜咸，很油"
+    },
+    "Halal Fried Chicken": {
+      "zh": "清真炸鸡",
+      "note": "很油"
+    },
+    "Cinnamon Pancakes": {
+      "zh": "肉桂松饼",
+      "note": ""
+    },
+    "Caribbean Stewed Chickpeas": {
+      "zh": "加勒比炖鹰嘴豆",
+      "note": "香料浓，微辣"
+    },
+    "Roasted Carrots Parsnips and Beets": {
+      "zh": "烤胡萝卜欧防风甜菜根",
+      "note": "欧防风像白胡萝卜，偏甜"
+    },
+    "Teriyaki Chicken Potsticker": {
+      "zh": "照烧鸡肉锅贴",
+      "note": ""
+    },
+    "Creamy Pesto": {
+      "zh": "奶油青酱",
+      "note": "罗勒青酱加奶油，偏油"
+    },
+    "Cranberry Glazed Chicken": {
+      "zh": "蔓越莓酱烤鸡",
+      "note": "酸甜"
+    },
+    "White Bean Soup with Garlic and Parsley": {
+      "zh": "蒜香欧芹白豆汤",
+      "note": "清淡"
+    },
+    "New York Style Cheesecake": {
+      "zh": "纽约芝士蛋糕",
+      "note": "很扎实很浓"
+    },
+    "Pumpkin Pie": {
+      "zh": "南瓜派",
+      "note": "肉桂香，甜"
+    },
+    "Chili Garlic Roasted Chicken": {
+      "zh": "蒜蓉辣椒烤鸡",
+      "note": "微辣"
+    },
+    "Ginger Orange Beef": {
+      "zh": "姜汁橙味牛肉",
+      "note": "偏甜，不辣"
+    },
+    "Honey Garlic Tofu": {
+      "zh": "蜜汁蒜香豆腐",
+      "note": "偏甜，不辣"
     }
   },
   "stations": {
@@ -4106,6 +4514,9 @@
     "Breakfast Special": "早餐特供台",
     "Centerplate": "主菜台",
     "Soup/Hot Grains": "汤/热粥台",
-    "Midday Mains": "午间主菜台"
+    "Midday Mains": "午间主菜台",
+    "salad bar": "沙拉吧",
+    "While It Last Center Plate": "主菜台（售完即止）",
+    "Nacho Bar": "玉米片自选台"
   }
 }
