@@ -4455,6 +4455,82 @@
     "Honey Garlic Tofu": {
       "zh": "蜜汁蒜香豆腐",
       "note": "偏甜，不辣"
+    },
+    "Mashed Sweet Potato": {
+      "zh": "红薯泥",
+      "note": "自带甜味，绵软"
+    },
+    "Baked Blueberry French Toast Casserole": {
+      "zh": "蓝莓法式吐司焗盘",
+      "note": "面包泡蛋奶液烤成，很甜，湿软"
+    },
+    "Teriyaki Pork Strips": {
+      "zh": "照烧猪肉条",
+      "note": "甜咸不辣"
+    },
+    "Chipotle Black Bean Burger": {
+      "zh": "烟熏辣椒黑豆汉堡",
+      "note": "素肉饼，微辣带烟熏味"
+    },
+    "Boiled Balsamic Pearl Onion Peas": {
+      "zh": "黑醋珍珠洋葱煮豌豆",
+      "note": "小洋葱微甜，黑醋酸甜"
+    },
+    "Fried Over Medium Eggs": {
+      "zh": "双面半熟煎蛋",
+      "note": "两面煎，蛋黄半凝固"
+    },
+    "Grilled Longanisa": {
+      "zh": "烤菲式香肠",
+      "note": "Longanisa 是菲律宾甜蒜香肠，偏甜，油"
+    },
+    "Cajun Tofu with Chimichurri": {
+      "zh": "卡真豆腐配阿根廷青酱",
+      "note": "卡真香料微辣；青酱是欧芹蒜醋，酸香"
+    },
+    "Sauteed Spinach and Tomato": {
+      "zh": "炒菠菜番茄",
+      "note": ""
+    },
+    "Bacon, Egg & Pesto Scramble": {
+      "zh": "培根青酱炒蛋",
+      "note": "偏油"
+    },
+    "Southwest Black Bean Bake": {
+      "zh": "西南风味黑豆焗",
+      "note": "玉米辣椒风味，微辣"
+    },
+    "Housemade Hashbrown": {
+      "zh": "自制薯饼",
+      "note": "煎炸土豆丝饼，外脆"
+    },
+    "Salmon with Red Bean Tomato Sauce": {
+      "zh": "三文鱼配红豆番茄酱",
+      "note": "不辣"
+    },
+    "Matcha Filled Mini Beignet": {
+      "zh": "抹茶夹心迷你炸面包",
+      "note": "炸面团填抹茶奶油，甜，油"
+    },
+    "Roasted Tandoori Salmon": {
+      "zh": "坦都里烤三文鱼",
+      "note": "酸奶香料腌过再烤，中等辣度"
+    },
+    "Thai Massaman Curry Tofu": {
+      "zh": "泰式马沙文咖喱豆腐",
+      "note": "Massaman 是泰南带花生和肉桂的咖喱，偏甜，辣度温和"
+    },
+    "Lentil & Potato Curry": {
+      "zh": "扁豆土豆咖喱",
+      "note": "中等辣度"
+    },
+    "Kerala Vegetable Curry": {
+      "zh": "喀拉拉椰浆蔬菜咖喱",
+      "note": "南印度做法，椰浆底配咖喱叶，温和微辣"
+    },
+    "Indian-Spiced Lentil Hummus": {
+      "zh": "印度香料扁豆泥",
+      "note": "类似鹰嘴豆泥但用扁豆，孜然味，微辣"
     }
   },
   "stations": {
@@ -4517,6 +4593,7 @@
     "Midday Mains": "午间主菜台",
     "salad bar": "沙拉吧",
     "While It Last Center Plate": "主菜台（售完即止）",
-    "Nacho Bar": "玉米片自选台"
+    "Nacho Bar": "玉米片自选台",
+    "While It Last Centerplate": "主菜台（售完即止）"
   }
 }
