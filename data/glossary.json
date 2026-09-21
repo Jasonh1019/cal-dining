@@ -4531,6 +4531,102 @@
     "Indian-Spiced Lentil Hummus": {
       "zh": "印度香料扁豆泥",
       "note": "类似鹰嘴豆泥但用扁豆，孜然味，微辣"
+    },
+    "Halal BBQ Baked Chicken Thigh": {
+      "zh": "清真烧烤烤鸡腿",
+      "note": "烤鸡腿刷烧烤酱，甜咸口，微油"
+    },
+    "Halal Beef Chili Colorado": {
+      "zh": "清真科罗拉多辣椒炖牛肉",
+      "note": "墨西哥红辣椒酱炖牛肉，中等辣，偏油"
+    },
+    "Puttanesca Sauce": {
+      "zh": "普塔内斯卡酱",
+      "note": "意式番茄酱，加橄榄、酸豆、凤尾鱼，咸香偏重，配意面"
+    },
+    "Assorted Mini Cheesecakes": {
+      "zh": "什锦迷你芝士蛋糕",
+      "note": "甜点，奶油奶酪口味"
+    },
+    "Mini Cinnamon Swirl Danish": {
+      "zh": "迷你肉桂卷丹麦酥",
+      "note": "甜的酥皮小面包，肉桂味"
+    },
+    "Fire Braised Chicken Breast": {
+      "zh": "火烤炖鸡胸",
+      "note": "鸡胸肉，烟熏炖煮，不辣"
+    },
+    "Fried Onion Rings": {
+      "zh": "炸洋葱圈",
+      "note": "油炸，很油"
+    },
+    "Sauteed Kale": {
+      "zh": "清炒羽衣甘蓝",
+      "note": "清淡蔬菜，略苦"
+    },
+    "Milk Gravy": {
+      "zh": "奶油肉汁",
+      "note": "美式白色奶油酱汁，常淋在炸鸡或饼干上，浓稠偏油"
+    },
+    "Halal Herb Roasted Chicken Thigh": {
+      "zh": "清真香草烤鸡腿",
+      "note": "香草调味烤鸡腿，不辣"
+    },
+    "Lemongrass Tofu": {
+      "zh": "香茅豆腐",
+      "note": "越南风味，香茅调味，微辣"
+    },
+    "Nuoc Cham Sauce": {
+      "zh": "越式鱼露蘸酱",
+      "note": "酸甜咸口的越南蘸酱（鱼露、青柠、糖），可能微辣"
+    },
+    "Baked Salmon with Pineapple Salsa": {
+      "zh": "烤三文鱼配菠萝莎莎",
+      "note": "烤三文鱼，配酸甜菠萝丁，清爽"
+    },
+    "White Bean Ragu Polenta Cakes": {
+      "zh": "白豆肉酱玉米糕",
+      "note": "玉米粥煎成饼，配白豆番茄炖菜，素食，偏软糯"
+    },
+    "Chicken Potsticker": {
+      "zh": "鸡肉锅贴",
+      "note": "类似煎饺，鸡肉馅"
+    },
+    "Chicken Pesto Sandwich": {
+      "zh": "鸡肉青酱三明治",
+      "note": "鸡肉配罗勒青酱，含奶酪坚果味，微油"
+    },
+    "Kosher Ginger Steamed Tilapia": {
+      "zh": "犹太洁食姜蒸罗非鱼",
+      "note": "清蒸鱼配姜，清淡不油"
+    },
+    "Roasted Pork Char Siu": {
+      "zh": "烤叉烧肉",
+      "note": "广式蜜汁叉烧，甜咸口"
+    },
+    "Roasted Char Siu Tofu": {
+      "zh": "烤叉烧豆腐",
+      "note": "用叉烧酱烤的豆腐，素食，甜咸口"
+    },
+    "Chicken Tikka Masala": {
+      "zh": "印度奶油咖喱鸡",
+      "note": "番茄奶油咖喱，微辣，浓郁偏油，配米饭"
+    },
+    "Garlic Green Beans": {
+      "zh": "蒜香四季豆",
+      "note": "清炒，蒜味"
+    },
+    "Pineapple Glazed Chicken": {
+      "zh": "菠萝酱鸡肉",
+      "note": "甜酸口鸡肉，微甜"
+    },
+    "Spicy Baked Tofu VEGAN HALAL": {
+      "zh": "香辣烤豆腐（纯素清真）",
+      "note": "烤豆腐，辣味调味，纯素"
+    },
+    "Creamy Garlic Sauce": {
+      "zh": "奶油蒜香酱",
+      "note": "白色奶油蒜味酱，偏油"
     }
   },
   "stations": {
@@ -4594,6 +4690,7 @@
     "salad bar": "沙拉吧",
     "While It Last Center Plate": "主菜台（售完即止）",
     "Nacho Bar": "玉米片自选台",
-    "While It Last Centerplate": "主菜台（售完即止）"
+    "While It Last Centerplate": "主菜台（售完即止）",
+    "Desserts": "甜点"
   }
 }
