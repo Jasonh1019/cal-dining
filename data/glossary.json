@@ -4627,6 +4627,222 @@
     "Creamy Garlic Sauce": {
       "zh": "奶油蒜香酱",
       "note": "白色奶油蒜味酱，偏油"
+    },
+    "Frittata": {
+      "zh": "意式烘蛋",
+      "note": "Frittata 是意大利式烤蛋饼，鸡蛋加蔬菜/芝士烘成厚饼；不辣；中油"
+    },
+    "Beef Swedish Meatballs": {
+      "zh": "瑞典牛肉丸",
+      "note": "牛肉丸配奶油浓汁（白色肉汁）炖；不辣；油偏大、奶味重"
+    },
+    "French Cream Cheesecake": {
+      "zh": "法式奶油芝士蛋糕",
+      "note": "奶油奶酪做的芝士蛋糕，烤；不辣；甜、油大"
+    },
+    "Onion Bagel": {
+      "zh": "洋葱贝果",
+      "note": "有嚼劲的圈形面包，表面撒洋葱碎；不辣；几乎无油"
+    },
+    "Thai Tofu Curry": {
+      "zh": "泰式豆腐咖喱",
+      "note": "豆腐+蔬菜，椰奶咖喱炖；微辣到中辣；中油"
+    },
+    "Lemon Leche Cake": {
+      "zh": "柠檬三奶蛋糕",
+      "note": "Leche 是西语「牛奶」，指浸满炼乳/牛奶的湿润海绵蛋糕，带柠檬味；不辣；很甜"
+    },
+    "Kosher Grilled Chicken Thigh Shawarma": {
+      "zh": "中东烤鸡腿肉沙威玛（洁食）",
+      "note": "Shawarma 是中东香料腌肉，类似土耳其烤肉；鸡腿肉，烤；微辣；中油"
+    },
+    "Halal Toasted Garbanzo Beans": {
+      "zh": "烤鹰嘴豆（清真）",
+      "note": "鹰嘴豆加香料烤脆，常撒在沙拉上；不辣；少油"
+    },
+    "Raspberry Mini Beignet": {
+      "zh": "覆盆子迷你贝奈特",
+      "note": "Beignet 是法式炸甜甜圈（方块形，撒糖粉），带覆盆子味；不辣；油炸、甜"
+    },
+    "Buffalo Chicken Tender Sandwich": {
+      "zh": "水牛城辣鸡柳三明治",
+      "note": "炸鸡柳裹 Buffalo 辣酱（酸辣黄油辣酱），夹面包；中辣；油大"
+    },
+    "Shredded Chicken Tinga": {
+      "zh": "墨西哥烟熏辣鸡丝",
+      "note": "Tinga 是墨西哥菜：鸡肉撕丝，用番茄+烟熏辣椒酱炖；中等辣度；中油"
+    },
+    "Kosher Herb Roasted Beef with Gravy": {
+      "zh": "香草烤牛肉配肉汁（洁食）",
+      "note": "牛肉抹香草烤，淋棕色肉汁；不辣；中油"
+    },
+    "Tuscan Chicken HALAL": {
+      "zh": "托斯卡纳鸡（清真）",
+      "note": "鸡肉配奶油酱、番茄干、菠菜炖；不辣；油偏大"
+    },
+    "Halal Chicken Biryani": {
+      "zh": "鸡肉印度香饭（清真）",
+      "note": "Biryani 是印度香料焖饭，鸡肉和香米一起焖；微辣到中辣；中油"
+    },
+    "Vegetable Biryani with Tofu": {
+      "zh": "蔬菜豆腐印度香饭",
+      "note": "印度香料焖饭，配蔬菜和豆腐；微辣；中油"
+    },
+    "Shrimp Ceviche Tostada": {
+      "zh": "酸橘汁腌虾脆饼",
+      "note": "Ceviche 是用青柠汁「腌熟」的海鲜，放在炸脆的玉米饼（Tostada）上；微辣、偏酸；少油"
+    },
+    "Lemon": {
+      "zh": "柠檬",
+      "note": ""
+    },
+    "Sauteed Potato Tofu Masala": {
+      "zh": "炒土豆豆腐玛莎拉",
+      "note": "Masala 是印度混合香料；土豆+豆腐加番茄香料酱炒；微辣到中辣；中油"
+    },
+    "Halal BBQ Chicken Slider": {
+      "zh": "烧烤鸡肉迷你汉堡（清真）",
+      "note": "Slider 是小号汉堡；鸡肉裹甜口烧烤酱；不辣；中油"
+    },
+    "Halal Sauteed Chicken Fajita": {
+      "zh": "墨西哥铁板炒鸡肉（清真）",
+      "note": "鸡肉条+甜椒洋葱，墨西哥香料炒，可卷饼吃；微辣；中油"
+    },
+    "Arborio Rice Mushoroom Risotto": {
+      "zh": "蘑菇意式烩饭",
+      "note": "Arborio 是意大利短粒米，和蘑菇、黄油、芝士煮成黏稠烩饭；不辣；油偏大"
+    },
+    "Baked Salmon with Mango Salsa": {
+      "zh": "烤三文鱼配芒果莎莎",
+      "note": "三文鱼烤，配芒果+洋葱+香菜切丁拌的酸甜酱；不辣；少油"
+    },
+    "Lentil Vindaloo": {
+      "zh": "扁豆温达卢咖喱",
+      "note": "Vindaloo 是印度果阿的酸辣咖喱，以辣著称；扁豆炖；偏辣；中油"
+    },
+    "Thai Basil Salmon": {
+      "zh": "泰式罗勒三文鱼",
+      "note": "三文鱼配九层塔、辣椒、鱼露炒/烤；微辣；中油"
+    },
+    "Asian Slaw": {
+      "zh": "亚洲风味凉拌卷心菜",
+      "note": "卷心菜丝+胡萝卜丝，用芝麻油/米醋酱汁拌；不辣；少油"
+    },
+    "Chicken Vegetable Bao": {
+      "zh": "鸡肉蔬菜包子",
+      "note": "蒸的包子，鸡肉蔬菜馅；不辣；少油"
+    },
+    "Lettuce Tomato and Avocado Sandwich": {
+      "zh": "生菜番茄牛油果三明治",
+      "note": "素三明治，冷的；不辣；少油"
+    },
+    "Bacon Lettuce and Tomato Sandwich": {
+      "zh": "培根生菜番茄三明治",
+      "note": "即经典 BLT，培根煎脆夹生菜番茄；不辣；中油"
+    },
+    "Vegan Coleslaw": {
+      "zh": "纯素凉拌卷心菜",
+      "note": "卷心菜丝+胡萝卜丝，用纯素蛋黄酱拌；不辣；中油"
+    },
+    "Halal Ground Beef Taco": {
+      "zh": "牛肉末塔可（清真）",
+      "note": "玉米饼夹调味牛肉末；微辣；中油"
+    },
+    "Housemade Corn Tortilla Chips": {
+      "zh": "自制玉米片",
+      "note": "玉米饼切角油炸，蘸莎莎酱吃；不辣；油炸"
+    },
+    "Halal Cajun Grilled Salmon": {
+      "zh": "卡真香料烤三文鱼（清真）",
+      "note": "Cajun 是美国南部辣香料（辣椒粉、蒜粉等）；三文鱼烤；微辣到中辣；少油"
+    },
+    "Baked White Beans": {
+      "zh": "焗白豆",
+      "note": "白芸豆用番茄/糖浆汁焗，偏甜；不辣；少油"
+    },
+    "BBQ Baked Chicken Thighs": {
+      "zh": "烧烤酱烤鸡腿",
+      "note": "鸡腿刷甜口烧烤酱烤；不辣；中油"
+    },
+    "San Antonio Beans": {
+      "zh": "圣安东尼奥风味炖豆",
+      "note": "德州墨西哥风味的斑豆，加辣椒、洋葱炖；微辣；少油"
+    },
+    "Philly Beef Cheesesteak Sandwich": {
+      "zh": "费城芝士牛肉三明治",
+      "note": "薄切牛肉煎炒+洋葱+融化芝士，夹长面包；不辣；油大"
+    },
+    "Sauteed Garlic Baby Carrots and Snap Peas": {
+      "zh": "蒜炒小胡萝卜甜豆",
+      "note": "小胡萝卜+甜豆荚，蒜炒；不辣；少油"
+    },
+    "Cilantro Lime Chicken Thigh": {
+      "zh": "香菜青柠鸡腿",
+      "note": "鸡腿肉用香菜青柠汁腌后烤/煎；不辣；中油"
+    },
+    "Jerk-Spiced Vegetables & Garbanzo Beans": {
+      "zh": "牙买加香料蔬菜鹰嘴豆",
+      "note": "Jerk 是牙买加辣香料（多香果+苏格兰帽辣椒）；蔬菜和鹰嘴豆烤；中等辣度；中油"
+    },
+    "Marinara Sauce with Chicken Meatballs": {
+      "zh": "番茄酱鸡肉丸",
+      "note": "鸡肉丸用意式番茄酱炖，一般配意面；不辣；中油"
+    },
+    "Sauteed Thai Coconut Curry Chicken": {
+      "zh": "泰式椰汁咖喱鸡",
+      "note": "鸡肉加椰奶咖喱炒煮；微辣；中油"
+    },
+    "Sauteed Thai Curry Eggplant": {
+      "zh": "泰式咖喱茄子",
+      "note": "茄子加泰式咖喱炒；微辣；油偏大（茄子吸油）"
+    },
+    "Swiss Onion Beef Burger": {
+      "zh": "瑞士芝士洋葱牛肉汉堡",
+      "note": "牛肉饼+瑞士芝士+炒洋葱；不辣；油大"
+    },
+    "Tahini Sauce": {
+      "zh": "芝麻酱（中东）",
+      "note": "Tahini 是中东芝麻酱，比中式芝麻酱稀、带柠檬酸味，蘸料；不辣；油"
+    },
+    "Lavash": {
+      "zh": "中东薄饼",
+      "note": "Lavash 是中东/亚美尼亚的薄面饼，软的，用来卷肉；不辣；几乎无油"
+    },
+    "Pistachio Baklava": {
+      "zh": "开心果果仁蜜饼",
+      "note": "Baklava 是土耳其/中东甜点：多层酥皮夹开心果碎，浸糖浆；不辣；很甜、油大"
+    },
+    "Eggplant Parmesan (Vegan)": {
+      "zh": "帕玛森焗茄子（纯素）",
+      "note": "茄子片裹粉煎，铺番茄酱和纯素芝士焗；不辣；中油"
+    },
+    "Orzo Pilaf": {
+      "zh": "米粒面抓饭",
+      "note": "Orzo 是米粒形状的意面，加高汤和蔬菜焖；不辣；少油"
+    },
+    "Chorizo Chilaquiles": {
+      "zh": "西班牙辣肠玉米片早餐",
+      "note": "Chilaquiles 是墨西哥早餐：炸玉米片用辣酱煮软，配 Chorizo（辣猪肉肠）；中等辣度；油大"
+    },
+    "Malt O Meal": {
+      "zh": "麦乳热麦片",
+      "note": "Malt-O-Meal 是一种小麦粉煮的热糊（类似麦片粥），早餐；不辣；无油"
+    },
+    "Citrus Sherry Chicken": {
+      "zh": "柑橘雪莉酒鸡",
+      "note": "鸡肉用柑橘汁+雪莉酒（烹饪酒）酱汁烤/炖；不辣；中油"
+    },
+    "Roasted Carrot Zucchini Eggplant and Onion": {
+      "zh": "烤胡萝卜西葫芦茄子洋葱",
+      "note": "混合蔬菜烤；不辣；少油"
+    },
+    "Ginger Pear and Raisin Relish": {
+      "zh": "姜味梨子葡萄干酱",
+      "note": "Relish 是酸甜配菜酱；梨+葡萄干+姜熬，配肉吃；不辣；无油"
+    },
+    "Pork Chili Verde con Papas": {
+      "zh": "青辣椒炖猪肉配土豆",
+      "note": "Chili Verde 是墨西哥青番茄+青辣椒酱；猪肉和土豆（papas）一起炖；中等辣度；中油"
     }
   },
   "stations": {
