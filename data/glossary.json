@@ -4843,6 +4843,258 @@
     "Pork Chili Verde con Papas": {
       "zh": "青辣椒炖猪肉配土豆",
       "note": "Chili Verde 是墨西哥青番茄+青辣椒酱；猪肉和土豆（papas）一起炖；中等辣度；中油"
+    },
+    "Sauteed Mushroom Spinach and Tomatoes": {
+      "zh": "清炒蘑菇菠菜番茄",
+      "note": "素菜，少油快炒，不辣"
+    },
+    "Halal Java Beef Curry": {
+      "zh": "清真爪哇牛肉咖喱",
+      "note": "印尼风味椰浆咖喱炖牛肉，偏甜带香料味，微辣"
+    },
+    "Fried Sesame Tofu": {
+      "zh": "芝麻炸豆腐",
+      "note": "豆腐裹芝麻油炸，外脆内嫩，偏油"
+    },
+    "Halal Vindaloo Chicken Thigh": {
+      "zh": "清真温达卢咖喱鸡腿",
+      "note": "Vindaloo 是印度果阿的酸辣咖喱，醋和辣椒味重，较辣"
+    },
+    "Seared Lemon Butter Salmon": {
+      "zh": "香煎柠檬黄油三文鱼",
+      "note": "三文鱼煎制，淋柠檬黄油酱，不辣，略油"
+    },
+    "Sweet Potato, Sausage & Egg Bake": {
+      "zh": "红薯香肠鸡蛋焗",
+      "note": "红薯块、香肠和蛋液一起烤，早餐菜，咸口，不辣"
+    },
+    "Bean Ragout VEGAN": {
+      "zh": "炖豆子（纯素）",
+      "note": "Ragout 是法式浓汁炖菜，这里是豆子番茄炖，不辣"
+    },
+    "Vegan \"Beef\" Strip Stew": {
+      "zh": "纯素\"牛肉\"条炖菜",
+      "note": "植物肉条加蔬菜炖，不含真肉，不辣"
+    },
+    "Smothered Pork Chops": {
+      "zh": "浓汁猪排",
+      "note": "美国南方做法：煎猪排后浇上洋葱肉汁(gravy)焖，咸香，偏油"
+    },
+    "French Dinner Roll": {
+      "zh": "法式餐包",
+      "note": "小个软面包，配餐吃"
+    },
+    "Sweet Potato Garlic Fries": {
+      "zh": "蒜香红薯条",
+      "note": "油炸红薯条加蒜末，偏甜，油"
+    },
+    "Hawaiian Huli Huli Chicken Thighs HALAL": {
+      "zh": "清真夏威夷烤鸡腿",
+      "note": "Huli Huli 是夏威夷甜咸照烧风味烤鸡（菠萝、酱油、姜），不辣"
+    },
+    "Kosher Herb Roasted Turkey Breast": {
+      "zh": "洁食香草烤火鸡胸",
+      "note": "符合犹太洁食的火鸡胸肉，香草烤制，清淡偏干"
+    },
+    "Arabic Salad": {
+      "zh": "阿拉伯沙拉",
+      "note": "番茄、黄瓜、洋葱切丁，柠檬橄榄油拌，清爽"
+    },
+    "Curry-Roasted Vegetables": {
+      "zh": "咖喱烤蔬菜",
+      "note": "蔬菜拌咖喱粉烤，微辣"
+    },
+    "Moroccan Spiced Beef with Pomegranate": {
+      "zh": "摩洛哥香料牛肉配石榴",
+      "note": "孜然肉桂等香料炒/炖牛肉，撒石榴籽，酸甜带香料味，不太辣"
+    },
+    "Lemon Herb White Bean & Spinach Bake": {
+      "zh": "柠檬香草白豆菠菜焗",
+      "note": "白芸豆和菠菜烤制，素食，清淡"
+    },
+    "Mushroom Potato Taco": {
+      "zh": "蘑菇土豆塔可",
+      "note": "玉米饼夹蘑菇土豆，素食，可加辣酱"
+    },
+    "Pico de Gallo Salsa": {
+      "zh": "墨西哥鲜番茄莎莎",
+      "note": "生番茄、洋葱、香菜、青辣椒切丁拌成的酱，微辣，清爽"
+    },
+    "Red Salsa": {
+      "zh": "红莎莎辣酱",
+      "note": "番茄辣椒打成的墨西哥红酱，中等辣度"
+    },
+    "Sandwhich Garnish": {
+      "zh": "三明治配菜",
+      "note": "生菜、番茄、洋葱、酸黄瓜等，自己往三明治里加"
+    },
+    "Roasted Green Beans": {
+      "zh": "烤四季豆",
+      "note": "素菜，少油，不辣"
+    },
+    "Harissa Tomato Sauce": {
+      "zh": "哈里萨番茄酱",
+      "note": "Harissa 是北非辣椒酱，和番茄一起做的酱汁，中等辣"
+    },
+    "Lentil Shepherd's Pie": {
+      "zh": "扁豆牧羊人派",
+      "note": "牧羊人派是英国菜：下层炖料、上层土豆泥烤；这里用扁豆代替肉，素食，不辣"
+    },
+    "Rotini Pasta": {
+      "zh": "螺旋意面",
+      "note": "白煮螺旋形意面，可自己配酱"
+    },
+    "Rosemary Lemon Baked Chicken": {
+      "zh": "迷迭香柠檬烤鸡",
+      "note": "清爽香草味烤鸡，不辣"
+    },
+    "Mediterranean Orzo Salad": {
+      "zh": "地中海米粒面沙拉",
+      "note": "Orzo 是米粒形状的意面，配黄瓜番茄橄榄和油醋汁，冷吃"
+    },
+    "Halal Beef Shepherds Pie": {
+      "zh": "清真牛肉牧羊人派",
+      "note": "下层碎牛肉蔬菜炖料、上层土豆泥烤，咸香，不辣"
+    },
+    "Vegan Cottage Pie": {
+      "zh": "纯素农舍派",
+      "note": "和牧羊人派类似，上层土豆泥下层植物肉/蔬菜炖料，不辣"
+    },
+    "Vegan BBQ Sandwich": {
+      "zh": "纯素烧烤酱三明治",
+      "note": "植物肉拌甜咸美式烧烤酱夹面包，不辣"
+    },
+    "Nashville Hot-style Chicken Tenders": {
+      "zh": "纳什维尔辣炸鸡柳",
+      "note": "炸鸡柳刷辣椒油，很辣，很油"
+    },
+    "Blueberry Pie": {
+      "zh": "蓝莓派",
+      "note": "甜点"
+    },
+    "Falafel Plate": {
+      "zh": "炸鹰嘴豆丸套餐",
+      "note": "Falafel 是中东鹰嘴豆泥炸丸子，配沙拉和酱，素食，偏油，不辣"
+    },
+    "Garlic Puree": {
+      "zh": "蒜泥酱",
+      "note": "调味用"
+    },
+    "Halal Grilled Beef Flank": {
+      "zh": "清真烤牛腹排",
+      "note": "牛腹肉烤制切片，有嚼劲，不辣"
+    },
+    "Halal Szechuan Style Chicken Breast": {
+      "zh": "清真川味鸡胸",
+      "note": "美式改良川味，辣椒酱油炒鸡胸，微辣到中辣"
+    },
+    "Baked Portebello Huli Huli Mushroom": {
+      "zh": "夏威夷风味烤大蘑菇",
+      "note": "大波特贝拉蘑菇刷甜咸照烧酱烤，素食，不辣"
+    },
+    "Mediterranean-style Roasted Chicken": {
+      "zh": "地中海风味烤鸡",
+      "note": "橄榄油、柠檬、香草烤鸡，不辣"
+    },
+    "Vegan Mongolian Stir Fry": {
+      "zh": "纯素蒙古风味炒",
+      "note": "美式中餐\"蒙古\"酱（甜咸酱油姜蒜）炒植物肉和蔬菜，不辣"
+    },
+    "Tater Tot Casserole": {
+      "zh": "炸薯球焗菜",
+      "note": "下层碎肉/蔬菜加奶油汤，上面铺满炸薯球烤，很顶饱，油"
+    },
+    "Halal Pollock Sandwich": {
+      "zh": "清真炸鳕鱼三明治",
+      "note": "狭鳕鱼柳裹粉炸后夹面包，偏油，不辣"
+    },
+    "Beef Meatball Sub": {
+      "zh": "牛肉丸潜艇堡",
+      "note": "长面包夹牛肉丸、番茄酱和芝士，咸香，偏油"
+    },
+    "Steamed Bok Choy with Oyster Sauce": {
+      "zh": "蚝油青菜",
+      "note": "蒸小白菜淋蚝油，清淡"
+    },
+    "Shrimp Pork Shumai": {
+      "zh": "虾肉烧卖",
+      "note": "猪肉虾仁烧卖，蒸的，不辣"
+    },
+    "Beef Broth": {
+      "zh": "牛肉清汤",
+      "note": "汤底"
+    },
+    "Herb Roasted Beef Brisket": {
+      "zh": "香草烤牛胸肉",
+      "note": "牛胸肉慢烤切片，软嫩，略油，不辣"
+    },
+    "Triple Berry Crumble Bar": {
+      "zh": "三莓酥粒方块",
+      "note": "混合莓果酱夹层，上面撒黄油酥粒的烤点心，甜"
+    },
+    "Hush Puppies and Remoulade": {
+      "zh": "炸玉米球配蛋黄酱",
+      "note": "Hush Puppies 是美国南方的炸玉米面小球；Remoulade 是带酸黄瓜的蛋黄酱蘸酱，油"
+    },
+    "Grilled Flank Steak": {
+      "zh": "烤牛腹排",
+      "note": "牛腹肉烤制切片，有嚼劲，不辣"
+    },
+    "Lemon and Cumin Grilled Lamb Heart": {
+      "zh": "柠檬孜然烤羊心",
+      "note": "羊心（内脏）切块烤，孜然味，口感有弹性，不辣"
+    },
+    "Grilled Pork Belly with Finishing Dressing": {
+      "zh": "烤五花肉配调味汁",
+      "note": "五花肉烤制，淋酱汁，很油"
+    },
+    "Grilled Green Onion Scallion": {
+      "zh": "烤葱",
+      "note": "整根葱烤软，配烤肉吃"
+    },
+    "Cacık Cucumber Yogurt Dip": {
+      "zh": "土耳其黄瓜酸奶酱",
+      "note": "Cacık 是黄瓜丝、蒜、薄荷拌酸奶，清凉，配烤肉"
+    },
+    "Moroccan Charmoula": {
+      "zh": "摩洛哥香草酱",
+      "note": "Charmoula 是香菜、欧芹、柠檬、孜然、橄榄油做的绿酱，微辣"
+    },
+    "Quick Pickled Cabbage": {
+      "zh": "快腌卷心菜",
+      "note": "醋腌卷心菜，酸脆解腻"
+    },
+    "Roasted Garlic": {
+      "zh": "烤大蒜",
+      "note": "整瓣烤软，香甜不冲"
+    },
+    "Spiced Greens": {
+      "zh": "香料炒青菜",
+      "note": "绿叶菜加香料炒，可能微辣"
+    },
+    "Red Velvet Cookie": {
+      "zh": "红丝绒曲奇",
+      "note": "红色可可味软曲奇，甜"
+    },
+    "Broccolini Sausage and Chili Pizza": {
+      "zh": "西兰苔香肠辣椒披萨",
+      "note": "披萨配芥兰花苔、意式香肠和辣椒，微辣，油"
+    },
+    "Latin-Style Shredded Beef": {
+      "zh": "拉美风味手撕牛肉",
+      "note": "牛肉慢炖后撕成丝，番茄辣椒香料味，微辣"
+    },
+    "Vegan Mushroom Adobado Taco": {
+      "zh": "纯素腌辣蘑菇塔可",
+      "note": "Adobado 是墨西哥干辣椒醋腌酱，蘑菇用它腌制后夹玉米饼，中等辣"
+    },
+    "Spanish Rice": {
+      "zh": "西班牙番茄饭",
+      "note": "其实是墨西哥做法：米饭和番茄、洋葱一起炒煮，橙红色，不辣"
+    },
+    "Cookie Butter Filled Mini Beignet": {
+      "zh": "饼干酱夹心迷你甜甜圈",
+      "note": "Beignet 是法式炸面团撒糖粉；里面夹焦糖饼干酱，很甜，油"
     }
   },
   "stations": {
