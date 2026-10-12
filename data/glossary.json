@@ -5095,6 +5095,146 @@
     "Cookie Butter Filled Mini Beignet": {
       "zh": "饼干酱夹心迷你甜甜圈",
       "note": "Beignet 是法式炸面团撒糖粉；里面夹焦糖饼干酱，很甜，油"
+    },
+    "Spanish Rice & Black Beans": {
+      "zh": "西班牙番茄饭配黑豆",
+      "note": "番茄汤汁煮的米饭，配炖黑豆，不辣，素"
+    },
+    "Brown Rice Pilaf": {
+      "zh": "糙米抓饭",
+      "note": "糙米加洋葱和高汤焖的饭，清淡"
+    },
+    "Seared Salmon": {
+      "zh": "香煎三文鱼",
+      "note": "三文鱼排煎制，不辣，少油"
+    },
+    "Fried Catfish": {
+      "zh": "炸鲶鱼",
+      "note": "鲶鱼裹玉米粉油炸，美国南方做法，不辣，偏油"
+    },
+    "Piccata Sauce": {
+      "zh": "柠檬刺山柑酱",
+      "note": "黄油、柠檬汁、刺山柑（酸咸小花蕾）做的酱，偏酸，常配鸡或鱼"
+    },
+    "Seasoned Roasted Potatoes": {
+      "zh": "香料烤土豆",
+      "note": "土豆块拌香料烤制，不辣"
+    },
+    "Remoulade Sauce Halal": {
+      "zh": "雷莫拉德酱（清真）",
+      "note": "蛋黄酱底，加芥末、酸黄瓜和香料，酸香微辣，常配炸海鲜"
+    },
+    "Baked Cod with Lemon Butter": {
+      "zh": "柠檬黄油烤鳕鱼",
+      "note": "鳕鱼烤制淋柠檬黄油，清淡不辣，略带黄油香"
+    },
+    "Halal Turkey Strip": {
+      "zh": "清真火鸡肉条",
+      "note": "火鸡做的培根状肉条，早餐配菜，咸香"
+    },
+    "Bacon and Mushroom Pizza with Truffle Oil": {
+      "zh": "培根蘑菇松露油披萨",
+      "note": "培根加蘑菇，淋松露油，香味浓，偏油"
+    },
+    "Bread Stick Focaccia": {
+      "zh": "佛卡夏面包条",
+      "note": "意式橄榄油扁面包切成条，咸口，松软"
+    },
+    "Roasted Root Veggies": {
+      "zh": "烤根茎蔬菜",
+      "note": "胡萝卜、红薯、甜菜等根茎类烤制，清淡，素"
+    },
+    "Halal Beef Sausage Link": {
+      "zh": "清真牛肉香肠",
+      "note": "早餐小牛肉肠，咸香，偏油"
+    },
+    "Lentil Burrito VEGAN": {
+      "zh": "扁豆墨西哥卷（纯素）",
+      "note": "面饼卷扁豆、米饭等，纯素，不辣"
+    },
+    "Loaded Baked Sweet Potatoes with Lentils": {
+      "zh": "扁豆满料烤红薯",
+      "note": "整个烤红薯，上面堆炖扁豆等配料，素，偏甜"
+    },
+    "Savory Lentil Loaf": {
+      "zh": "咸味扁豆糕",
+      "note": "像肉糕（meatloaf）的素食版，用扁豆压成块烤，咸口"
+    },
+    "Halal Beef Patty": {
+      "zh": "清真牛肉饼",
+      "note": "汉堡用的牛肉饼，偏油"
+    },
+    "Filipino Beef Mechado (HS - Halal)": {
+      "zh": "菲律宾番茄炖牛肉（清真）",
+      "note": "牛肉加番茄酱、酱油、土豆、胡萝卜炖，咸鲜微酸，不辣"
+    },
+    "Ginataang Kalabasa": {
+      "zh": "椰奶炖南瓜",
+      "note": "菲律宾菜，南瓜（常加四季豆）用椰奶炖，香甜微咸，不辣"
+    },
+    "Vegetable Lumpia": {
+      "zh": "菲律宾蔬菜春卷",
+      "note": "Lumpia 就是菲律宾春卷，包蔬菜油炸，脆，偏油"
+    },
+    "Endaladang Pipinoo at Kamatis": {
+      "zh": "黄瓜番茄沙拉",
+      "note": "菲律宾凉拌，黄瓜番茄加醋，酸爽清淡"
+    },
+    "Halal Sinigang Na Manok Chicken Stew": {
+      "zh": "菲律宾酸汤鸡（清真）",
+      "note": "Sinigang 是罗望子酸汤，鸡肉加蔬菜煮，很酸，不辣不油"
+    },
+    "Vegan Sinigang Na Manok Stew": {
+      "zh": "纯素菲律宾酸汤",
+      "note": "上面酸汤鸡的纯素版（没有鸡），罗望子酸汤煮蔬菜，酸，不辣"
+    },
+    "Banana Turon": {
+      "zh": "香蕉春卷",
+      "note": "菲律宾甜点，香蕉裹红糖用春卷皮油炸，甜，脆，偏油"
+    },
+    "Biko": {
+      "zh": "椰奶红糖糯米糕",
+      "note": "菲律宾甜点，糯米用椰奶和红糖煮成黏糕，很甜"
+    },
+    "Mango Soft Serve": {
+      "zh": "芒果软冰淇淋",
+      "note": ""
+    },
+    "Ube Milk Boba": {
+      "zh": "紫薯牛奶珍珠",
+      "note": "Ube 是菲律宾紫山药，香甜，做成奶茶风味加珍珠"
+    },
+    "Housemade BBQ Potato Chips": {
+      "zh": "自制烧烤味薯片",
+      "note": "现炸薯片撒烧烤调味粉，咸甜，油"
+    },
+    "Chicken Inasal": {
+      "zh": "菲律宾烤鸡",
+      "note": "鸡肉用青柠、香茅、蒜和胭脂树油腌后炭烤，酸香，不辣"
+    },
+    "Pork Lumpia": {
+      "zh": "菲律宾猪肉春卷",
+      "note": "细长春卷包猪肉馅油炸，脆，偏油"
+    },
+    "Chicken Tocino Pizza": {
+      "zh": "甜腌鸡肉披萨",
+      "note": "Tocino 是菲律宾甜味腌肉，这里用鸡肉做披萨配料，偏甜"
+    },
+    "Ensaladang Mangga": {
+      "zh": "青芒果沙拉",
+      "note": "菲律宾凉拌，青芒果配番茄洋葱，酸脆，可能带虾酱"
+    },
+    "Birria Beef Tacos": {
+      "zh": "Birria 牛肉塔可",
+      "note": "Birria 是辣椒香料炖牛肉，塔可蘸肉汤吃，中等辣度，油"
+    },
+    "Longsilog": {
+      "zh": "菲律宾香肠蛋饭",
+      "note": "Longganisa 甜香肠 + 蒜香炒饭 + 煎蛋的菲式早餐套餐，偏甜偏油"
+    },
+    "Halal Chicken Pesto Sandwich": {
+      "zh": "清真青酱鸡肉三明治",
+      "note": "鸡肉配罗勒青酱（罗勒、松子、橄榄油），不辣"
     }
   },
   "stations": {
@@ -5159,6 +5299,7 @@
     "While It Last Center Plate": "主菜台（售完即止）",
     "Nacho Bar": "玉米片自选台",
     "While It Last Centerplate": "主菜台（售完即止）",
-    "Desserts": "甜点"
+    "Desserts": "甜点",
+    "Center_Plate": "主菜台"
   }
 }
