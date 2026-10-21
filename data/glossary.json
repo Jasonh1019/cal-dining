@@ -5235,6 +5235,70 @@
     "Halal Chicken Pesto Sandwich": {
       "zh": "清真青酱鸡肉三明治",
       "note": "鸡肉配罗勒青酱（罗勒、松子、橄榄油），不辣"
+    },
+    "Chicken Biscuit Sandwich": {
+      "zh": "炸鸡松饼三明治",
+      "note": "炸鸡块夹在咸口松软小圆饼（biscuit，不是甜饼干）里，不辣，偏油"
+    },
+    "Maple Chickpea Cutlet Biscuit": {
+      "zh": "枫糖鹰嘴豆排松饼堡",
+      "note": "素食：鹰嘴豆压成的煎排配枫糖，夹在咸口松软小圆饼里，微甜，不辣"
+    },
+    "Black Bean & Sweet Potato Taco Filling": {
+      "zh": "黑豆红薯塔可馅",
+      "note": "素食塔可馅料，黑豆加烤红薯，带墨西哥香料，微辣或不辣，清淡"
+    },
+    "French Toast Sticks": {
+      "zh": "法式吐司条",
+      "note": "面包蘸蛋液煎成条状，甜口，常蘸糖浆吃，偏油"
+    },
+    "Nutella Hazelnut Spread": {
+      "zh": "能多益榛子巧克力酱",
+      "note": "甜的巧克力榛子酱，抹面包/华夫饼用"
+    },
+    "Fried Green Tomatoes": {
+      "zh": "炸青番茄",
+      "note": "美国南方菜：没熟的绿番茄切片裹玉米粉油炸，酸脆，偏油，不辣"
+    },
+    "Vegan Remoulade Sauce": {
+      "zh": "纯素雷莫拉酱",
+      "note": "类似塔塔酱的蛋黄酱风味蘸酱（纯素版），带酸黄瓜和芥末味，微辣，配炸物"
+    },
+    "Thai Coconut Curry Chicken Noodle Soup": {
+      "zh": "泰式椰奶咖喱鸡肉汤面",
+      "note": "椰奶咖喱汤底加鸡肉和面条，微辣到中辣，椰奶较浓"
+    },
+    "California Spare Cheeseburger": {
+      "zh": "加州风味芝士汉堡",
+      "note": "牛肉芝士汉堡（菜单原名如此，「Spare」含义不明，大概率是加州风格配牛油果/生菜番茄），不辣，偏油"
+    },
+    "Waffle-Cut Sweet Potato Fries": {
+      "zh": "网格红薯薯条",
+      "note": "红薯切成华夫格状油炸，外脆微甜，偏油"
+    },
+    "Gluten Free Mac & Cheese": {
+      "zh": "无麸质芝士通心粉",
+      "note": "用无麸质意面做的奶酪焗通心粉，奶香浓，不辣，较腻"
+    },
+    "Seared Chicken Breast Cacciatore": {
+      "zh": "意式猎人烩煎鸡胸",
+      "note": "Cacciatore 是意大利「猎人风味」：煎鸡胸配番茄、甜椒、洋葱炖煮，酸香不辣，不太油"
+    },
+    "Buffalo Chicken Sandwich": {
+      "zh": "水牛城辣鸡三明治",
+      "note": "炸鸡裹水牛城辣酱（酸辣黄油味），中等辣度，偏油"
+    },
+    "Garlic Breadsticks": {
+      "zh": "蒜香面包棍",
+      "note": "蒜香黄油烤的长条面包，咸香，有点油"
+    },
+    "Honey Balsamic Roasted Carrots": {
+      "zh": "蜂蜜香醋烤胡萝卜",
+      "note": "胡萝卜加蜂蜜和意大利香醋烤，酸甜，清淡"
+    },
+    "Halal Catfish PoBoy Sandwich": {
+      "zh": "清真炸鲶鱼 Po'boy 三明治",
+      "note": "Po'boy 是新奥尔良的长法棍三明治，这里夹炸鲶鱼，清真，常配蛋黄酱类酱汁，微辣或不辣，偏油"
     }
   },
   "stations": {
