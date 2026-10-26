@@ -5299,6 +5299,38 @@
     "Halal Catfish PoBoy Sandwich": {
       "zh": "清真炸鲶鱼 Po'boy 三明治",
       "note": "Po'boy 是新奥尔良的长法棍三明治，这里夹炸鲶鱼，清真，常配蛋黄酱类酱汁，微辣或不辣，偏油"
+    },
+    "Roasted Pork": {
+      "zh": "烤猪肉",
+      "note": "猪肉整块烤后切片；不辣；中油"
+    },
+    "Hot and Sour Soup": {
+      "zh": "酸辣汤",
+      "note": "豆腐、木耳、鸡蛋花，醋和白胡椒调味，勾芡；微辣带酸；少油"
+    },
+    "Chicken Sausage Pancake Wrap": {
+      "zh": "鸡肉肠煎饼卷",
+      "note": "鸡肉早餐肠卷在美式松饼里，常配枫糖浆；不辣、偏甜咸；中油"
+    },
+    "Halal Herb Roasted Tri Tip": {
+      "zh": "清真香草烤牛三角肉",
+      "note": "牛臀尖肉加香草整块烤后切片，偏瘦有嚼劲；不辣；中油"
+    },
+    "Halal Blue Sage Beef Burger": {
+      "zh": "清真蓝鼠尾草牛肉汉堡",
+      "note": "牛肉饼夹汉堡包；Blue Sage 是食堂自家的调味/菜名，大概是鼠尾草香草风味；不辣；油大"
+    },
+    "Halal Taco Seasoned Ground Beef": {
+      "zh": "清真塔可风味牛肉末",
+      "note": "牛肉末用孜然、辣椒粉炒，夹塔可或配饭；微辣；中油"
+    },
+    "Beet and Hash Farro Pilaf": {
+      "zh": "甜菜根薯丁法罗麦抓饭",
+      "note": "法罗麦（有嚼劲的古麦）+甜菜根+煎土豆丁焖成；不辣、微甜；少到中油"
+    },
+    "Herbed Roasted Beef Tri Tip": {
+      "zh": "香草烤牛三角肉",
+      "note": "牛臀尖肉加香草整块烤后切片，偏瘦有嚼劲；不辣；中油"
     }
   },
   "stations": {
