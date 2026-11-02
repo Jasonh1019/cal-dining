@@ -5331,6 +5331,70 @@
     "Herbed Roasted Beef Tri Tip": {
       "zh": "香草烤牛三角肉",
       "note": "牛臀尖肉加香草整块烤后切片，偏瘦有嚼劲；不辣；中油"
+    },
+    "American Beef Burger": {
+      "zh": "美式牛肉汉堡",
+      "note": "牛肉饼+面包+生菜番茄，煎烤；不辣；油"
+    },
+    "Vegan Boca Burger": {
+      "zh": "纯素 Boca 汉堡",
+      "note": "Boca 是大豆蛋白做的素肉饼品牌，口感像肉饼；煎；不辣；中油"
+    },
+    "Seasoned Grilled Chicken Breast": {
+      "zh": "香料烤鸡胸",
+      "note": "鸡胸肉+香料，烤；不辣；少油"
+    },
+    "Pesto Mayonnaise": {
+      "zh": "青酱蛋黄酱",
+      "note": "罗勒青酱拌蛋黄酱的蘸酱/抹酱；不辣；油"
+    },
+    "Halal Alfredo Pesto": {
+      "zh": "青酱奶油白酱（清真）",
+      "note": "Alfredo 是奶油芝士白酱，这里混了罗勒青酱，通常拌意面；不辣；油、浓"
+    },
+    "Sauteed Carrot and Green Beans": {
+      "zh": "清炒胡萝卜四季豆",
+      "note": "胡萝卜+四季豆，炒；不辣；少油"
+    },
+    "Halal Chipotle Sauce": {
+      "zh": "烟熏辣椒酱（清真）",
+      "note": "Chipotle 是烟熏墨西哥辣椒，带烟熏味的酱；微辣到中辣；中油"
+    },
+    "Poached Balsamic Pearl Onions": {
+      "zh": "黑醋煮珍珠洋葱",
+      "note": "小颗珍珠洋葱用意大利黑醋煮，酸甜口配菜；不辣；少油"
+    },
+    "Chipotle Chicken Breast": {
+      "zh": "烟熏辣椒鸡胸",
+      "note": "鸡胸+Chipotle 烟熏墨西哥辣椒腌料，烤；微辣；中油"
+    },
+    "Halal Baked Salmon with Pineapple Salsa": {
+      "zh": "烤三文鱼配菠萝莎莎（清真）",
+      "note": "三文鱼烤制，上面盖菠萝丁、洋葱、香菜拌的酸甜莎莎；基本不辣；中油"
+    },
+    "Honey Lemongrass Chicken": {
+      "zh": "蜂蜜香茅鸡",
+      "note": "鸡肉用蜂蜜+香茅（东南亚香料，柠檬清香）腌后烤/炒，偏越南风味，咸甜口；不辣；中油"
+    },
+    "Sweet Chili Roasted Brussels Sprouts": {
+      "zh": "甜辣酱烤抱子甘蓝",
+      "note": "抱子甘蓝（像迷你包菜）烤后拌泰式甜辣酱；微辣、偏甜；中油"
+    },
+    "Shrimp PoBoy Sandwich": {
+      "zh": "炸虾 Po'boy 三明治",
+      "note": "Po'boy 是新奥尔良风味长棍三明治，夹炸虾+生菜番茄+酱；可能微辣；油大"
+    },
+    "Crispy White Bean Cakes": {
+      "zh": "香煎白豆饼",
+      "note": "白芸豆捣泥做成小饼，煎至表面酥脆，素食主菜；不辣；中油"
+    },
+    "Chimichuri Tri Tip": {
+      "zh": "阿根廷青酱烤三角牛排",
+      "note": "Tri Tip 是牛后腰三角肉，烤后切片；Chimichurri 是欧芹蒜醋酱，清爽带酸；不辣；中油"
+    },
+    "Ancho Lime Chicken": {
+      "zh": "安丘辣椒青柠鸡",
+      "note": "Ancho 是干的墨西哥辣椒，香而不太辣，配青柠汁腌鸡后烤；微辣；中油"
     }
   },
   "stations": {
