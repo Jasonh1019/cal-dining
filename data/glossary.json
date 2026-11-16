@@ -5479,6 +5479,114 @@
     "Baked Tapsilog Tofu": {
       "zh": "烤豆腐（菲律宾 Tapsilog 风味）",
       "note": "Tapsilog 是菲律宾早餐，原本是蒜香咸甜腌牛肉配蒜饭和煎蛋，这里用豆腐代替牛肉烤制，不辣，不太油"
+    },
+    "Roasted Salmon with Lemon and Parsley": {
+      "zh": "柠檬欧芹烤三文鱼",
+      "note": "烤三文鱼配柠檬和欧芹，清淡不辣，鱼本身有油脂"
+    },
+    "Kosher Paprika Grilled Chicken Breast": {
+      "zh": "烟熏红椒粉烤鸡胸（犹太洁食）",
+      "note": "鸡胸用红椒粉腌后烤，红椒粉主要是颜色和烟熏味，基本不辣，不油；Kosher 指符合犹太饮食规范"
+    },
+    "Housemade Macaroni and Cheese Pasta": {
+      "zh": "自制芝士通心粉",
+      "note": "通心粉拌浓芝士酱，奶味重、偏腻，不辣"
+    },
+    "Shakshuka": {
+      "zh": "北非番茄烩蛋",
+      "note": "Shakshuka 是北非/中东菜：番茄甜椒酱里卧鸡蛋小火煮，像番茄炒蛋的浓汤版，微辣或不辣，配面包吃"
+    },
+    "Spicy Vegan Shakshuka": {
+      "zh": "辣味纯素番茄烩蛋",
+      "note": "纯素版北非番茄烩，不含鸡蛋（一般用豆腐等替代），番茄甜椒酱底，有点辣"
+    },
+    "Chicken Piccata": {
+      "zh": "柠檬酸豆黄油鸡排",
+      "note": "意式做法：鸡排裹薄粉煎，淋柠檬黄油酱加酸豆（刺山柑），酸香、偏油，不辣"
+    },
+    "Halal Roasted Turkey Breast": {
+      "zh": "烤火鸡胸（清真）",
+      "note": "烤火鸡胸肉切片，肉质偏干、清淡，常配肉汁；Halal 指清真"
+    },
+    "Mashed Potatoes with Gravy": {
+      "zh": "土豆泥配肉汁",
+      "note": "奶油土豆泥浇褐色肉汁酱，咸香顺滑，不辣，略油"
+    },
+    "Cornbread Stuffing": {
+      "zh": "玉米面包填馅",
+      "note": "感恩节传统配菜：玉米面包掰碎和洋葱芹菜、黄油、高汤拌匀烤，口感湿软偏甜咸，略油；不是塞在火鸡里的肉馅"
+    },
+    "Maple Roasted Delicata Squash": {
+      "zh": "枫糖烤奶油南瓜",
+      "note": "Delicata 是一种长条小南瓜，皮薄可吃，刷枫糖浆烤，甜口，不辣"
+    },
+    "Pompegranate Glazed Beef Brisket": {
+      "zh": "石榴汁烧牛胸肉",
+      "note": "牛胸肉慢炖到软烂，刷石榴酱汁，酸甜口，肥瘦相间、偏油，不辣"
+    },
+    "Smashed Yukon Gold Potatoes with Garlic and Thyme": {
+      "zh": "蒜香百里香压扁小土豆",
+      "note": "黄皮土豆煮熟压扁再烤到边缘焦脆，蒜和百里香调味，不辣，有点油"
+    },
+    "Green Bean, Mushroom and Onion Sauté": {
+      "zh": "炒四季豆蘑菇洋葱",
+      "note": "四季豆、蘑菇、洋葱一起炒，家常清爽，不辣"
+    },
+    "Cinnamon-Raisin Noodle Kugel": {
+      "zh": "肉桂葡萄干面条布丁",
+      "note": "Kugel 是犹太传统烤布丁：宽面条拌鸡蛋、奶酪、葡萄干和肉桂烤成块，甜口，像甜点，偏腻"
+    },
+    "Apple, Fennel and Arugula Salad": {
+      "zh": "苹果茴香芝麻菜沙拉",
+      "note": "苹果片、球茎茴香（淡淡八角味）和芝麻菜（略苦带辛）拌成，清爽"
+    },
+    "Roasted Butternut Squash With Apple Confit Soup": {
+      "zh": "烤南瓜苹果浓汤",
+      "note": "烤甜南瓜打成浓汤，加慢煮苹果，香甜顺滑，不辣"
+    },
+    "Fall Foraged Salad": {
+      "zh": "秋日野趣沙拉",
+      "note": "秋季时蔬沙拉，通常有绿叶菜、坚果、果干等，清爽，具体配料看现场"
+    },
+    "Brussels Sprouts & Pear Salad": {
+      "zh": "抱子甘蓝梨沙拉",
+      "note": "抱子甘蓝（小包菜）切丝或烤过，配梨片，微苦带甜，清爽"
+    },
+    "Harvest Quinoa Bowl": {
+      "zh": "丰收藜麦碗",
+      "note": "藜麦打底配秋季烤蔬菜（南瓜等）、果干坚果，健康清淡，不辣"
+    },
+    "Cranberry Sauce": {
+      "zh": "蔓越莓酱",
+      "note": "感恩节配火鸡吃的酸甜果酱，不是饮料"
+    },
+    "Pumpkin Spice Soft Serve": {
+      "zh": "南瓜香料软冰淇淋",
+      "note": "南瓜加肉桂、豆蔻等香料味的软冰淇淋，秋季限定，甜"
+    },
+    "Sparkling Apple Cider": {
+      "zh": "气泡苹果汁",
+      "note": "不含酒精的气泡苹果汁"
+    },
+    "Breadsticks": {
+      "zh": "面包棍",
+      "note": "长条软面包，常刷黄油蒜粉，配意面吃"
+    },
+    "Salmon & Wild Rice Bowl with Roasted Squash": {
+      "zh": "三文鱼野米饭配烤南瓜",
+      "note": "烤三文鱼配野米（黑色细长、有嚼劲的草籽米）和烤南瓜，清淡健康"
+    },
+    "Cheese tortellini": {
+      "zh": "芝士意式饺子",
+      "note": "Tortellini 是意大利小馄饨形状的饺子，里面包芝士，配酱汁吃，不辣"
+    },
+    "Herb Roasted Chicken Breast with Sauce": {
+      "zh": "香草烤鸡胸配酱汁",
+      "note": "鸡胸用香草调味烤，配酱汁，清淡不辣"
+    },
+    "Kosher Baked Veracruz Rockfish": {
+      "zh": "韦拉克鲁斯风味烤石斑（犹太洁食）",
+      "note": "Veracruz 是墨西哥做法：白肉鱼（石斑/岩鱼）配番茄、橄榄、酸豆、辣椒酱烤，酸香微辣，不油"
     }
   },
   "stations": {
